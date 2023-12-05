@@ -1,0 +1,31 @@
+[{
+  "name": "Siddhi Jain",
+  "designation": "USG Designing",
+  "image": "./TeamImages/SiddhiJain_GD.jpg",
+  "linkedin":"https://www.linkedin.com/in/siddhi-jain-77298b220"
+},
+{
+  "name": "Khush Goyal",
+  "designation": "USG Designing",
+  "image": "./TeamImages/khush_gd.jpg",
+  "linkedin":"https://www.linkedin.com/in/khushgoyal17/"
+},
+{
+  "name": "Khushi Kabra",
+  "designation": "USG Designing",
+  "image": "./TeamImages/khushi kabra_graphic designing.jpg",
+  "linkedin":"https://www.linkedin.com/in/khushi-kabra-94b27b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+  "name":"Mahi Jain",
+  "designation":"USG Designing",
+  "image":"./TeamImages/MAHI JAIN_graphic designing.jpg",
+  "linkedin":"https://www.linkedin.com/in/mahi-jain-632639256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+  "name":"Vranda Toshniwal ",
+  "designation":"USG Designing",
+  "image":"./TeamImages/Vranda Toshniwal _Graphic designing.jpg",
+  "linkedin":"https://www.linkedin.com/in/vranda-toshniwal-40100325a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+}
+]

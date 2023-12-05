@@ -1,0 +1,25 @@
+[{
+    "name": "Yash Soni",
+    "designation": "USG Cinematography",
+    "image": "./TeamImages/yashsoni_cine.jpg",
+    "linkedin":"https://www.linkedin.com/in/yashsoni08/"
+  },
+{
+    "name":"Tushar Agarwal ",
+    "designation":"USG Cinematography",
+    "image":"./TeamImages/Tushar Agarwal_VideoEditor.jpg",
+    "linkedin":"https://www.linkedin.com/in/tushar-agarwal-40066724a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+    "name":"Sachin Singh ",
+    "designation":"USG Cinematography",
+    "image":"./TeamImages/Sachin_Video Editor.jpg",
+    "linkedin":"https://www.linkedin.com/in/sachin-singh-29b8a0287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+    "name":"Avani Jain",
+    "designation":"USG Cinematography",
+    "image":"./TeamImages/avani jain _videography.jpeg",
+    "linkedin":"https://www.linkedin.com/in/avani-jain-1932a4264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+}
+]

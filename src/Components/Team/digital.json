@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sarthak Jain",
+    "designation": "USG Digital Marketing",
+    "image": "./TeamImages/Sarthak Jain_Digital Marketing.jpg",
+    "linkedin": "https://www.linkedin.com/in/sarthak-jain-911817227"
+  },
+  {
+    "name": "Archita Agrawal ",
+    "designation": "USG Digital Marketing",
+    "image": "./TeamImages/ArchitaAgrawal_digital.jpg",
+    "linkedin":"https://www.linkedin.com/in/archita-agrawal-073886242"
+  },
+  {
+    "name": "Tanisha Jain",
+    "designation": "USG Digital Marketing",
+    "image": "./TeamImages/Tanisha jain_Digital marketing.jpg",
+    "linkedin":"https://www.linkedin.com/in/tanisha-jain-06168b256"
+  }
+]

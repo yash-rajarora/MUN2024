@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Shri. Ashok Gehlot",
+      "src": "./Speaker/12.jpg",
+      "desc": "Honorable Chief Minister (Rajasthan)"
+    },
+    {
+        "name": "Pt. Ravi Shankar",
+        "src": "./Speaker/1.jpg",
+        "desc": "Bharat Ratna awardee"
+    },
+    {
+        "name": "Late Mr. Jagjeet Singh",
+        "src": "./Speaker/11.jpg",
+        "desc": "Ghazal maestro"
+    },
+    {
+        "name": "Mr. Sunil Rao",
+        "src": "./Speaker/14.jpg",
+        "desc": "Country Head, Outreach, Google"
+    },
+    {
+        "name": "Ms. Vasundhara Raje",
+        "src": "./Speaker/13.jpg",
+        "desc": "Former Chief Minister (Rajasthan)"
+    },
+    {
+        "name": "Shiv Shankar Menon",
+        "src": "./Speaker/5.jpg",
+        "desc": "Former National Security Advisor"
+    },
+    {
+        "name": "Dr. Pratiba Patil",
+        "src": "./Speaker/6.jpg",
+        "desc": "Former President of India"
+    },
+    {
+        "name": "Dr. N. Ravichandran",
+        "src": "./Speaker/7.jpg",
+        "desc": "Director, IIM Indore"
+    },
+    {
+        "name": "Mr. Sanjay Jha",
+        "src": "./Speaker/4.jpg",
+        "desc": "Country Head, Outreach, Google"
+    },
+    {
+        "name": "Shri Kailash Satyarthi",
+        "src": "./Speaker/8.jpg",
+        "desc": "Nobel Peace Prize 2014 Awardee"
+    },
+    {
+        "name": "Mr. Murthy",
+        "src": "./Speaker/2.jpg",
+        "desc": "Global Head Academic, Microsoft"
+    },
+    {
+        "name": "Mrs. Hari Chandana Dasari",
+        "src": "./Speaker/9.jpg",
+        "desc": "IAS and Social Worker"
+    },
+    {
+        "name": "Pt. Vishwa Mohan Bhatt",
+        "src": "./Speaker/10.jpg",
+        "desc": "Grammy Award Winner"
+    },
+    {
+        "name": "Dr. Jawahar Surisetti",
+        "src": "./Speaker/3.jpg",
+        "desc": "Renowned Psychologist and Educationist"
+    }
+  ]
+  

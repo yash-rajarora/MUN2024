@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Arpit Agrawal ",
+      "designation": "Director JECRC",
+      "image": "./TeamImages/arpit sir.webp",
+      "linkedin":"https://www.linkedin.com/in/arpitjecrc/"
+    },
+    {
+      "name": "Pramod Kumar Tiwari",
+      "designation": "Senior Advisor",
+      "image": "./TeamImages/pk tiwari.jpeg",
+      "linkedin":"https://www.linkedin.com/in/pramod-kumar-tiwari-04023536/"
+    },
+    {
+      "name": "Dr Sonia Khubchandani ",
+      "designation": "Faculty Coordinator",
+      "image": "./TeamImages/sonia.jpg",
+      "linkedin":"https://www.linkedin.com/in/dr-sonia-khubchandani-05837035/"
+    }
+]
