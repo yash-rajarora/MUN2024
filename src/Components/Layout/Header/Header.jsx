@@ -65,7 +65,7 @@ const Header = () => {
                   rightIcon={<FaChevronDown />}
                   leftIcon={<GrDocumentConfig />}
                 >
-                  About
+                  Events
                 </MenuButton>
                 <MenuList>
                   <MenuItem>
@@ -80,6 +80,15 @@ const Header = () => {
                   </MenuItem>
                 </MenuList>
               </Menu>
+              <Link onClick={onClose} to="/AboutUs">
+                <Button
+                  variant="ghost"
+                  leftIcon={<RiTeamLine fontSize={'18px'} />}
+                >
+                  {' '}
+                  About
+                </Button>
+              </Link>
               <Menu>
                 <MenuButton
                   variant="ghost"
