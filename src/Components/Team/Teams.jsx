@@ -49,7 +49,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={2}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {mentor &&
               mentor.map(mentor => {
@@ -67,13 +67,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -102,7 +102,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {secgen &&
               secgen.map(secgen => {
@@ -120,13 +120,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -155,7 +155,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {tech &&
               tech.map(tech => {
@@ -173,13 +173,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -209,7 +209,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {digital &&
               digital.map(digital => {
@@ -227,13 +227,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -262,7 +262,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {outreach &&
               outreach.map(outreach => {
@@ -280,13 +280,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -315,7 +315,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {cinematography &&
               cinematography.map(cinematography => {
@@ -333,13 +333,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -368,7 +368,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {gd &&
               gd.map(gd => {
@@ -386,13 +386,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -421,7 +421,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {content &&
               content.map(content => {
@@ -439,13 +439,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
@@ -473,7 +473,7 @@ function Team() {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0', '10%']}
+            ml={['10%', '10%']}
           >
             {da &&
               da.map(da => {
@@ -491,13 +491,13 @@ function Team() {
                         src={image}
                         objectFit="cover" />
                     </Box>
-                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'}>
+                    <Heading as="h2" fontSize="xl" mt={5} mb={2} pr={'35%'} pl={['70px','0']}>
                       {name}
                     </Heading>
                     <Box pr="35%">
-                      <Text fontStyle={'italic'}>{designation}</Text>
+                      <Text fontStyle={'italic'} pl={['70px','0']}>{designation}</Text>
                     </Box>
-                    <Box pt={'6px'} pr={"50%"}>
+                    <Box pt={'6px'} pr={"50%"} pl={['35px','0']}>
                     <Box as={Link} href={linkedin} borderRadius='md' bg='blue.400' color='white' px={4} h={8} w={32} ml={'35%'} display="flex" alignItems="center" justifyContent="center">
                       <FaLinkedin style={{ marginRight: '8px' }} /> LinkedIn
                     </Box>
