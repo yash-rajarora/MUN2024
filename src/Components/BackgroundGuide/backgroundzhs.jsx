@@ -121,7 +121,7 @@ import {
                     discussion.<br/><br/>
   
                     </Text>
-                    {/* <Heading
+                    <Heading
                       className="about_heading"
                       color={'green.500'}
                       fontSize={['20px', '30px']}
@@ -130,7 +130,7 @@ import {
                       textAlign="center"
                       fontWeight={'semibold'}
                     >
-                     Tackling socio-political and insurgency issues in Manipur
+                     Impact of recession on Employment and strategies for Economic stability
                     </Heading>
                     <Text
                       className="about_text"
@@ -138,16 +138,17 @@ import {
                       fontWeight={['normal','medium']}
                       fontSize={['15px',"17px"]}
                     >
-                    In addressing socio-political and insurgency issues in Manipur, tensions surface as the Kukis express concern about 
-                    the Meiteis' plea for official tribal status. From the Kukis' perspective, granting tribal status to the Meiteis might 
-                    amplify their influence on government and society, impacting land ownership and settlement dynamics in predominantly 
-                    Kuki areas. The Meiteis, mainly Hindus residing in the Imphal valley, seek tribal recognition, while the predominantly 
-                    Christian Nagas and Kukis inhabit the hills. The historical backdrop of ethnic conflicts traces back to British 
-                    colonial policies of "divide and rule," which laid the foundation for present discord.<br/><br/>
-                    Finding a balanced solution in the Manipur debate involves understanding the valid concerns of both the Kuki and 
-                    Meitei communities
+                    As the economy falls during a recession, it arises concerns over job impacts, particularly in sectors like 
+                    manufacturing and construction. But in the present time, it adds threats with technological shifts influencing jobs, 
+                    exemplified by the surge in remote work.<br/><br/>
+                    On the other hand, despite these challenges, governments can intervene with policies to boost growth and job creation, 
+                    while skill development becomes crucial. The job market remains difficult to keep down, offering numerous opportunities 
+                    for well-skilled individuals. This challenges the notion that a recession universally dampens job prospects. Examining 
+                    thriving sectors reveals the robustness of the current job market, highlighting that deserving and skilled candidates 
+                    can still secure employment. Understanding these differences is essential for a comprehensive view of the present 
+                    employment scenario.<br/><br/>
   
-                    </Text> */}
+                    </Text>
                     <Stack align="center" pt="10">
                   <Link onClick={onClose} to="/register">
                   {/* <Button 
