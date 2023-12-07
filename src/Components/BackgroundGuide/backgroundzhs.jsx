@@ -121,7 +121,7 @@ import {
                     discussion.<br/><br/>
   
                     </Text>
-                    <Heading
+                    {/* <Heading
                       className="about_heading"
                       color={'green.500'}
                       fontSize={['20px', '30px']}
@@ -147,7 +147,7 @@ import {
                     Finding a balanced solution in the Manipur debate involves understanding the valid concerns of both the Kuki and 
                     Meitei communities
   
-                    </Text>
+                    </Text> */}
                     <Stack align="center" pt="10">
                   <Link onClick={onClose} to="/register">
                   {/* <Button 
