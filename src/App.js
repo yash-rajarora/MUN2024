@@ -17,6 +17,7 @@ import Collaboration from './Components/Collaboration';
 import Ramanan from './Components/Ramanan';
 import Registrationzhs from './Components/Registration/Registrationzhs';
 import AboutUs from './Components/About/Aboutus';
+import BackgroundGuideZhs from './Components/BackgroundGuide/backgroundzhs';
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -29,6 +30,7 @@ function App() {
         <Route element={<MUNConference />} exact path='/munconference' />
         <Route element={<ZeroHourSummit />} exact path='/zerohoursummit' />
         <Route element={<AboutUs />} exact path='/AboutUs' />
+        <Route element={<BackgroundGuideZhs/>} exact path='/BackgroundGuideZhs' />
         <Route element={<Registration />} exact path='/register' />
         <Route element={<Agendas />} exact path='/agenda' />
         <Route element={<Gallery />} exact path='/gallery' />

@@ -256,11 +256,18 @@ const Home = () => {
               be a possible agenda. 
 
               </Text>
+              <Box display={'flex'} pb={['10','0']} pt={['5','5']}>
+              <Link onClick={onClose} to="/BackgroundGuideZhs">
+              <Button variant={'solid'} colorScheme="green" size={['md', 'lg']} mr={'5'}>
+                BACKGROUND GUIDE 
+              </Button>
+              </Link>
               <Link onClick={onClose} to="/zerohoursummit">
               <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
                 Read More
               </Button>
               </Link>
+              </Box>
             </VStack>
             <VStack
               alignItems={['center', 'flex-start']}
