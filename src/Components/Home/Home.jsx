@@ -96,6 +96,9 @@ const Home = () => {
           <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           3rd Edition
           </Heading>
+          <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
+          9th December 2023
+          </Heading>
           <Link to="https://forms.gle/bZ7JR1bmB8wiTYTs5">
             <Button
               variant={'outline'}
