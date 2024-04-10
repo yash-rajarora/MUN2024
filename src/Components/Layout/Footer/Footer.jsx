@@ -98,7 +98,7 @@ const Footer = () => {
               This site is maintained and developed by  {' '} 
             </Text>
             <Text color={'green.500'} fontSize={['13px','18px']}>
-              <Link to="/technicalteam"> - JECRC Techincal Team</Link>
+              <Link to="/technicalteam"> - JECRC Technical Team</Link>
             </Text>
           </Box>
           <Box pb={'3%'}>
