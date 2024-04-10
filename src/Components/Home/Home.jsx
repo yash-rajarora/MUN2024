@@ -94,12 +94,12 @@ const Home = () => {
           ZERO HOUR SUMMIT 
           </Heading>
           <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
-          3rd Edition
+          13th Edition
           </Heading>
           <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
-          9th December 2023
+          4th - 5th May
           </Heading>
-          <Link to="https://forms.gle/bZ7JR1bmB8wiTYTs5">
+          <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
             <Button
               variant={'outline'}
               size="lg"
