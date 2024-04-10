@@ -79,23 +79,23 @@ const Home = () => {
           >
           PRESENTS
           </Heading>
-          {/* <Heading
+          <Heading
             color={'green.500'}
             fontSize={['2xl', '4xl']}
             fontWeight="semibold"
           >
-            12th Edition
-          </Heading> */}
-          {/* <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
+            13th Edition
+          </Heading>
+          {<Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '4xl']}>
             Empowering Deliberations <br /> Shaping The World <br /> 
-          </Heading> */}
+          </Heading>}
           
-          <Heading textAlign={'center'} color={'white'} fontSize={['3xl', '5xl']} >
+          {/* <Heading textAlign={'center'} color={'white'} fontSize={['3xl', '5xl']} >
           ZERO HOUR SUMMIT 
-          </Heading>
-          <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
+          </Heading> */}
+          {/* <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           13th Edition
-          </Heading>
+        </Heading> */}
           <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           4th - 5th May
           </Heading>
