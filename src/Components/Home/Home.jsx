@@ -65,28 +65,28 @@ const Home = () => {
           <Image width={['190px', '200px']} alignContent="center" src={logo} />
           <Heading
             color={'green.500'}
-            fontSize={['3xl', '5xl']}
-            fontWeight="semibold"
+            fontSize={['3xl', '6xl']}
+            fontWeight="bold"
             textAlign={'center'}
           >
             JECRC MUN 
           </Heading>
-          <Heading
+          {/* <Heading
             color={'green.500'}
             fontSize={['xl', '3xl']}
             fontWeight="semibold"
             textAlign={'center'}
           >
           PRESENTS
-          </Heading>
+          </Heading> */}
           <Heading
             color={'green.500'}
-            fontSize={['2xl', '4xl']}
+            fontSize={['xl', '3xl']}
             fontWeight="semibold"
           >
             13th Edition
           </Heading>
-          {<Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '4xl']}>
+          {<Heading textAlign={'center'} color={'white'} fontSize={['2xl', '3xl']} fontWeight={'semibold'}>
             Empowering Deliberations <br /> Shaping The World <br /> 
           </Heading>}
           
@@ -96,7 +96,7 @@ const Home = () => {
           {/* <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           13th Edition
         </Heading> */}
-          <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
+          <Heading textAlign={'center'} color={'green.500'} fontSize={['l', '2xl']} >
           4th - 5th May
           </Heading>
           <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
