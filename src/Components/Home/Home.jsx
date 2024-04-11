@@ -406,7 +406,7 @@ const Home = () => {
               spacing={4}
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             >
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -414,7 +414,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaRegCalendarCheck color="green" />
+                    <FaRegCalendarCheck color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
@@ -441,7 +441,7 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Card>
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -449,7 +449,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaCreativeCommonsBy color="green" />
+                    <FaCreativeCommonsBy color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
@@ -475,7 +475,7 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Card>
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -483,7 +483,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaAngellist color="green" />
+                    <FaAngellist color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
