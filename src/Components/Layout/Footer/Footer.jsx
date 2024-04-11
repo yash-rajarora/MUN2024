@@ -45,7 +45,7 @@ const Footer = () => {
             >
               <Heading
                 fontWeight={'semibold'}
-                color="green.500"
+                color="#E74E00"
                 fontSize={['13px','20px']}
               >
                 Address
@@ -63,7 +63,7 @@ const Footer = () => {
             >
               <Heading
                 fontWeight={'semibold'}
-                color="green.500"
+                color="#E74E00"
                 fontSize={['13px','20px']}
               >
                 Email
@@ -80,7 +80,7 @@ const Footer = () => {
             >
               <Heading
                 fontWeight={'semibold'}
-                color="green.500"
+                color="#E74E00"
                 fontSize={['13px','20px']}
               >
                 Contacts
@@ -90,14 +90,14 @@ const Footer = () => {
               </Text>
             </VStack>
           </HStack>
-          <Text textAlign={'center'} width={'100%'} color="green.500">
+          <Text textAlign={'center'} width={'100%'} color="#E74E00">
             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{' '}
           </Text>
           <Box display={'flex'} flexDirection={['column','row']} justifyContent="center" alignItems={'center'}>
             <Text color={'white'} fontSize={['13px','20px']}>
               This site is maintained and developed by  {' '} 
             </Text>
-            <Text color={'green.500'} fontSize={['13px','18px']}>
+            <Text color={'#E74E00'} fontSize={['13px','18px']}>
               <Link to="/technicalteam"> - JECRC Technical Team</Link>
             </Text>
           </Box>

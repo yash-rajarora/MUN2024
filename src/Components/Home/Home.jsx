@@ -64,7 +64,7 @@ const Home = () => {
         >
           <Image width={['190px', '200px']} alignContent="center" src={logo} />
           <Heading
-            color={'green.500'}
+            color={'#E74E00'}
             fontSize={['3xl', '6xl']}
             fontWeight="bold"
             textAlign={'center'}
@@ -80,7 +80,7 @@ const Home = () => {
           PRESENTS
           </Heading> */}
           <Heading
-            color={'green.500'}
+            color={'#E74E00'}
             fontSize={['xl', '3xl']}
             fontWeight="semibold"
           >
@@ -96,7 +96,7 @@ const Home = () => {
           {/* <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           13th Edition
         </Heading> */}
-          <Heading textAlign={'center'} color={'green.500'} fontSize={['l', '2xl']} >
+          <Heading textAlign={'center'} color={'#E74E00'} fontSize={['l', '2xl']} >
           4th - 5th May
           </Heading>
           <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
@@ -105,13 +105,13 @@ const Home = () => {
               size="lg"
               border="2px solid white"
               fontWeight="medium"
-              color="green.500"
+              color="#E74E00"
               marginTop={'10'}
               p="7"
-              background={'rgba(255, 255, 255,1)'}
+              background={'#FEFCE7'}
               _hover={{
-                background: 'green.600',
-                color: 'rgba(255,255,255,1)',
+                background: '#E74E00',
+                color: '#FEFCE7',
                 transition: 'background 0.3s ease', // Add a smooth transition
               }}
               >
@@ -124,7 +124,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* ABOUT SECTION  */}
-      <Box minHeight={'100vh'} bgColor="green.50">
+      <Box minHeight={'100vh'} bgColor="#FEFCE7">
         <Container
           minWidth={'85%'}
           minHeight="100vh"
@@ -170,7 +170,8 @@ const Home = () => {
               <Link onClick={onClose} to="/munconference">
               <Button 
               variant={'solid'} 
-              colorScheme="green" 
+              bgColor="#E74E00" 
+              color={'white'}
               size={['md', 'lg']}
               >
                 Read More
@@ -181,7 +182,7 @@ const Home = () => {
               <Image width={['85%', '80%']} src={intro} boxShadow="0px 0px 32px rgba(0, 0, 0, 0.6)"/>
             </VStack>
           </Stack>
-          <Stack width={'100%'} marginTop={['10', '20']} alignItems={'center'}>
+          <Stack width={'100%'} marginTop={['10', '20']} marginBottom={['10', '20']} alignItems={'center'}>
             <Box className="aboutBoxes">
               <Box className="aboutBox">
                 <Heading
@@ -229,57 +230,6 @@ const Home = () => {
               </Box>
             </Box>
           </Stack>
-          <Stack
-            display={'flex'}
-            flexDir={['column', 'row-reverse']}
-            marginTop="20"
-            alignItems={['center', 'flex-start']}
-            marginBottom="20"
-          >
-            <VStack alignItems={['center', 'flex-end']} width={['100%', '50%']}>
-              <Heading
-                color={'green.600'}
-                fontSize={['25px', '40px']}
-                fontStyle="italic"
-              >
-                ZERO HOUR SUMMIT
-              </Heading>
-              {/* <Image width={'30%'} src={line} /> */}
-              <Text
-                fontSize={['18px', '22px']}
-                letterSpacing="1px"
-                fontWeight={'medium'}
-                textAlign={'justify'}
-              >
-              Someone wise once said it is better to debate a question without settling it than to settle a question without debate.
-
-              Zero Hour Summit is a  one-day in-house debate competition that will discuss agendas in different committees ranging from 
-              technology to socio-economic arenas. 200-220 students getting together and trying to make their point heard and valued is 
-              an interesting day to imagine for sure. Everything and anything that can cause different people to differ in opinion will 
-              be a possible agenda. 
-
-              </Text>
-              <Box display={'flex'} pb={['10','0']} pt={['5','5']}>
-              <Link onClick={onClose} to="/BackgroundGuideZhs">
-              <Button variant={'solid'} colorScheme="green" size={['md', 'lg']} mr={'5'}>
-                BACKGROUND GUIDE 
-              </Button>
-              </Link>
-              <Link onClick={onClose} to="/zerohoursummit">
-              <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
-                Read More
-              </Button>
-              </Link>
-              </Box>
-            </VStack>
-            <VStack
-              alignItems={['center', 'flex-start']}
-              justifyContent={['center', 'center']}
-              width={['100%', '50%']}
-            >
-              <Image width={['85%', '80%']} src={zhs} />
-            </VStack>
-          </Stack>
         </Container>
       </Box>
       {/* JECRC MUN EXCELLENCIES  */}
@@ -313,7 +263,7 @@ const Home = () => {
               spacing={4}
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             >
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -321,7 +271,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaBookReader color="green" />
+                    <FaBookReader fa-regular color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
@@ -349,7 +299,7 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Card>
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -357,7 +307,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaConnectdevelop color="green" />
+                    <FaConnectdevelop color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
@@ -385,7 +335,7 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Card>
-              <Card size={'lg'}>
+              <Card size={'lg'} background={'#FEFCE7'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
@@ -393,7 +343,7 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                    <FaRegShareSquare color="green" />
+                    <FaRegShareSquare color="#E74E00" />
                   </Heading>
                   <Heading
                     size="md"
@@ -565,7 +515,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={'20'}>
+      <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pb={'20'}>
           <Container
             minWidth={'85%'}
             minHeight="80vh"
@@ -574,7 +524,7 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'green.500'} letterSpacing="2px" marginTop={'20'}>
+            <Heading color={'#E74E00'} letterSpacing="2px" marginTop={'20'}>
               {' '}
               COMMITTEES AND AGENDAS FOR THIS EDITION
             </Heading>
@@ -903,7 +853,7 @@ const Home = () => {
       
       {/* EB SECTION */}
 
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={10}>
+      <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pb={10}>
         <Container
           minWidth={'85%'}
           minHeight="80vh"
@@ -912,11 +862,11 @@ const Home = () => {
           justifyContent="center"
           alignItems={'center'}
         >
-          <Heading color={'green.500'} letterSpacing="2px" marginTop={'20'} pb={10}>
+          <Heading color={' #E74E00'} letterSpacing="2px" marginTop={'20'} pb={10}>
             {' '}
             EXECUTIVE BOARD FOR MUN 2023
           </Heading>
-          <Tabs variant='soft-rounded' colorScheme='green'>
+          <Tabs variant='soft-rounded' colorScheme='orange'>
             <TabList>
             <Grid
               templateColumns={['repeat(2, 1fr)', 'repeat(6, 1fr)']}
@@ -1585,10 +1535,10 @@ const Home = () => {
 
       {/* PREVIOUS SPEAKER */}
 
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5} pb={"4%"}>
+      <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pt={5} pb={"4%"}>
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
