@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Card,
+  CardFooter,
   CardBody,
   CardHeader,
   Container,
@@ -565,6 +566,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
+      
       <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={'20'}>
           <Container
             minWidth={'85%'}
@@ -578,7 +580,93 @@ const Home = () => {
               {' '}
               COMMITTEES AND AGENDAS FOR THIS EDITION
             </Heading>
-            <Card
+            <SimpleGrid
+              marginTop={'1'}
+              marginBottom={'20'}
+              spacing={4}
+              templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
+            ></SimpleGrid>
+            <div style={{ display: 'flex', justifyContent: 'space-between',gap:'20px' }}>
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={unhrc} alt="Caffe Latte"/>
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>United Nations Human Rights Council (UNHCR)</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis </Text>
+                </CardBody>
+              </Card>
+
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={unscpic} alt="Caffe Latte"/>
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>LokSabha </Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology) </Text>
+                </CardBody>
+              </Card>
+
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={unscpic} alt="Caffe Latte"/>
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>United Nations Security Council (UNSC)</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas </Text>
+                </CardBody>
+              </Card>
+            </div>
+            <SimpleGrid
+              marginTop={'1'}
+              marginBottom={'20'}
+              spacing={4}
+              templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
+            ></SimpleGrid>
+            <div style={{ display: 'flex', justifyContent: 'space-between' ,gap:'20px'}}>
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={unscpic} alt="Caffe Latte"/>
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>IMF </Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)  </Text>
+                </CardBody>
+              </Card>
+
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={unscpic} alt="Caffe Latte" />
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>Historical Crisis Committee</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>The Suez Canal Crisis (1956) </Text>
+                </CardBody>
+              </Card>
+
+              <Card maxW='sm' variant='elevated'>
+                <CardFooter>
+                  <Image src={ip_logo} alt="Caffe Latte" />
+                </CardFooter>
+                <CardHeader>
+                  <Heading size='md'>International Press (IP)</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text>Reporter | Photographer | Caricaturist </Text>
+                </CardBody>
+              </Card>
+            </div>
+            {/* <Card
               width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
@@ -746,7 +834,7 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Stack>
-            </Card>
+            </Card> */}
             </Container>
         
       </Box>
