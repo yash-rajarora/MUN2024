@@ -21,8 +21,8 @@ const Collaboration = () => {
         </Container>
 
     </Box>
-    <Box width={'100%'} backgroundColor={'green.50'}>
-    <Box pl={['25%', '15%']} pt={'10%'} bg="green.50" pb={'10%'}>
+    <Box width={'100%'} backgroundColor={' #FEFCE7'}>
+    <Box pl={['25%', '15%']} pt={'10%'} bg=" #FEFCE7" pb={'10%'}>
     <Grid
     templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
     gap={['5','0']}
@@ -33,7 +33,7 @@ const Collaboration = () => {
         w={["200px","400px"]}
         h={["200px","400px"]}
         boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)"
-        border="2px solid #4CAF50"
+        border="2px solid #E74E00"
         borderRadius="md"
         />
        <Image 
@@ -42,7 +42,7 @@ const Collaboration = () => {
         w={["200px","400px"]}
         h={["200px","400px"]}
         boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)"        
-        border="2px solid #4CAF50"
+        border="2px solid #E74E00"
         borderRadius="md"
         />
     </Grid>

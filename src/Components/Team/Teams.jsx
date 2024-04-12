@@ -33,15 +33,12 @@ function Team() {
         <AboutBanner munheading={'OUR TEAM'} />
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
-          pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
-            marginBottom={'50px'}
+            color="#E74E00"
             letterSpacing="4px"
           >
             Mentors
@@ -86,14 +83,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -139,14 +135,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -193,14 +188,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -246,14 +240,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -299,14 +292,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -352,14 +344,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -405,14 +396,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
@@ -458,14 +448,13 @@ function Team() {
 
         <Box
           width={'100%'}
-          backgroundColor="green.50"
-          minHeight={'100vh'}
+          backgroundColor=" #FEFCE7"
           pt={5}
           pb={'4%'}
         >
           <Heading
             textAlign={'center'}
-            color="black"
+            color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >

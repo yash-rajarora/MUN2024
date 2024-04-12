@@ -21,7 +21,7 @@ const Registration = () => {
   return (
     <>
       <AboutBanner munheading={'Registration'} />
-      <Box minwidth="100%" minHeight={'50vh'} background="green.50"  >
+      <Box minwidth="100%" minHeight={'50vh'} background=" #FEFCE7"  >
         <Container minWidth={'80%'} minHeight={'8 0vh'}>
             <SimpleGrid
               spacing={4}
@@ -38,7 +38,7 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     {/* Application Fees 2000/- */}
                   </Text>
-                  <Button colorScheme={'green'}
+                  <Button colorScheme={'orange'}
                   size={'lg'}
                   variant="solid" 
                   onClick={(e) => {
@@ -62,7 +62,7 @@ const Registration = () => {
                     Delegate Fees 2000/-
                   </Text>
                   <Button 
-                  colorScheme={'green'} 
+                  colorScheme={'orange'} 
                   size={'lg'} 
                   variant="solid"
                   onClick={(e) => {
@@ -87,7 +87,7 @@ const Registration = () => {
                     Delegate Fees 2000/-
                   </Text>
                   <Button 
-                  colorScheme={'green'} 
+                  colorScheme={'orange'} 
                   size={'lg'} 
                   variant="solid" 
                   onClick={(e) => {
@@ -108,7 +108,7 @@ const Registration = () => {
                     {/* Application Fees 2000/- */}
                   </Text>
                   <Button 
-                  colorScheme={'green'}  
+                  colorScheme={'orange'}  
                   size={'lg'} 
                   variant="solid" 
                   onClick={(e) => {

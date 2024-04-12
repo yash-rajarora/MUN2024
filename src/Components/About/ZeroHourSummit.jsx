@@ -14,7 +14,7 @@ const MunConference = () => {
     <>
     <AboutBanner munheading={"ABOUT US"}/>
       <Box
-        bg={'green.50'}
+        bg={' #FEFCE7'}
       >
         <Container  minWidth="100%">
           <Container
@@ -33,7 +33,7 @@ const MunConference = () => {
                 <CardBody paddingLeft={['5','20']} paddingRight={['5','20']}>
                   <Heading
                     className="about_heading"
-                    color={'green.500'}
+                    color={'#E74E00'}
                     fontSize={['25px', '40px']}
                     marginTop={'10'}
                     marginBottom={'10'}

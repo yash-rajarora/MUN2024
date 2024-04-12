@@ -65,11 +65,11 @@ const Header = () => {
                   rightIcon={<FaChevronDown />}
                   leftIcon={<GrDocumentConfig />}
                 >
-                  Events
+                  About
                 </MenuButton>
                 <MenuList>
                   <MenuItem>
-                    <Link onClick={onClose} to="/munconference">
+                    <Link onClick={onClose} to="/AboutUs">
                       <Button variant="ghost">MUN Conference</Button>
                     </Link>
                   </MenuItem>
@@ -80,16 +80,7 @@ const Header = () => {
                   </MenuItem>
                 </MenuList>
               </Menu>
-              <Link onClick={onClose} to="/AboutUs">
-                <Button
-                  variant="ghost"
-                  leftIcon={<RiTeamLine fontSize={'18px'} />}
-                >
-                  {' '}
-                  About
-                </Button>
-              </Link>
-              <Menu>
+              {/* <Menu>
                 <MenuButton
                   variant="ghost"
                   as={Button}
@@ -110,15 +101,15 @@ const Header = () => {
                     </Link>
                   </MenuItem>
                 </MenuList>
-              </Menu>
-              {/* <Link onClick={onClose} to="/register">
+              </Menu> */}
+              <Link onClick={onClose} to="/register">
                 <Button
                   variant="ghost"
-                  leftIcon={<RiRegisteredLine fontSize="18px" />}
+                  leftIcon={<GrDocumentConfig fontSize="18px" />}
                 >
                   Registrations
                 </Button>
-              </Link> */}
+              </Link>
               {/* <Link onClick={onClose} to="/agenda">
                 <Button
                   variant="ghost"

@@ -516,7 +516,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={'20'}>
+      <Box width={'100%'} backgroundColor=" #FEFCE7" minHeight={'100vh'} pb={'20'}>
           <Container
             minWidth={'85%'}
             minHeight="80vh"

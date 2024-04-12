@@ -63,7 +63,7 @@ function Contact() {
     <>
       
       <AboutBanner munheading={'CONTACT US'} />
-      <Box bg={"green.50"} pb={['0','10']} pt={10}>
+      <Box bg={" #FEFCE7"} pb={['0','10']} pt={10}>
       <SimpleGrid
         minChildWidth="320px"
         spacing={['40px', '0']}
@@ -104,11 +104,11 @@ function Contact() {
 
               <Button
                 type="submit"
-                colorScheme="green"
+                colorScheme="orange"
                 size="lg"
                 color={theme.colors.white}
-                _hover={{ bg: 'green.600' }}
-                _active={{ border: '2px solid', borderColor: 'green.500' }}
+                _hover={{ bg: '#E74E00' }}
+                _active={{ border: '2px solid', borderColor: '#E74E00' }}
               >
                 Send Message
               </Button>

@@ -19,7 +19,7 @@ import {
       <>
         <AboutBanner munheading={'ABOUT US'} />
         <Box>
-          <Container background={'green.50'} minWidth="100%">
+          <Container background={' #FEFCE7'} minWidth="100%">
             <Container
               minWidth={['100%','85%']}
               minHeight="80vh"

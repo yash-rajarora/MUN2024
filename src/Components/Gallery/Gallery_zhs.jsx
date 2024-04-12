@@ -6,7 +6,7 @@ function GalleryZhs() {
   return (
     <>
       <AboutBanner munheading={'ZERO HOUR SUMMIT GALLERY'} />
-      <Box pl={['0', '10']} pt={'10'} bg="green.50" pb={'10'}>
+      <Box pl={['0', '10']} pt={'10'} bg=" #FEFCE7" pb={'10'}>
         <Grid
           templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
           ml={['10%', '12%']}

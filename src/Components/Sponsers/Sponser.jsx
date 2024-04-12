@@ -65,8 +65,8 @@ function Sponsers() {
   return (
     <>
       <AboutBanner munheading={'OUR SPONSERS'} />
-      <Box width={'100%'} backgroundColor={'green.50'}>
-        <Box pl={['0', '10']} pt={'10'} bg="green.50" pb={'10'}>
+      <Box width={'100%'} backgroundColor={' #FEFCE7'}>
+        <Box pl={['0', '10']} pt={'10'} bg=" #FEFCE7" pb={'10'}>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             ml={['10%', '12%']}
@@ -136,11 +136,11 @@ function Sponsers() {
 
               <Button
                 type='submit'
-                colorScheme="green"
+                colorScheme="orange"
                 size="lg"
                 color={'white'}
-                _hover={{ bg: 'green.600' }}
-                _active={{ border: '2px solid', borderColor: 'green.500' }}
+                _hover={{ bg: '#E74E00' }}
+                _active={{ border: '2px solid', borderColor: '#E74E00' }}
               >
                 Send Message
               </Button>
