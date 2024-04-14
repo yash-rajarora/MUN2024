@@ -1,12 +1,23 @@
 import {
-  Grid,
-  Image,
   Box,
-  FormControl,
-  FormLabel,
+  Flex,
+  Stack,
+  Heading,
+  Text,
+  Container,
   Input,
   Button,
-  Heading,
+  SimpleGrid,
+  Avatar,
+  AvatarGroup,
+  useBreakpointValue,
+  IconProps,
+  Icon,
+  Grid,
+  VStack,
+  Image,
+  FormControl,
+  FormLabel,
   Textarea,
   Card,
   useToast,
@@ -16,6 +27,7 @@ import AboutBanner from '../About/AboutBanner';
 import images from './Sponsers.json';
 import axios from 'axios';
 import React, { useState } from 'react';
+import Collaborations from '../../Assets/images/Collaborations.png';
 
 
 function Sponsers() {
@@ -93,17 +105,36 @@ function Sponsers() {
               })}
           </Grid>
         </Box>
+      </Box>
 
-        <Heading as="h1" size="xl" textAlign="center" my={6}>
+      <Box position={'relative'} backgroundColor={' #FEFCE7'}>
+      <Container
+        as={SimpleGrid}
+        maxW={['7xl','7xl']}
+        columns={{ base: 1, md: 2 }}
+        spacing={{ base: 10, lg: 32 }}
+        py={{ base: 10, sm: 20, lg: 32 }}>
+          <Stack
+            display={'flex'}
+            flexDir={['column', 'row']}
+            marginTop={'10'}
+            alignItems={['center', 'flex-start']}
+          >
+
+        <VStack alignItems={['center', 'flex-start']} pt={'8%'} width={['100%', '100%']}>
+          <Image width={['85%', '80%']} src={Collaborations} />
+        </VStack>
+          </Stack>
+          
+    <Box maxW={['xl', '4xl']} mx="auto" mt={['10', '0']} pb={20} width="100%">
+      <Heading as="h1" size="xl" textAlign="center" my={6}>
           Become Our Sponsor
         </Heading>
-          <Box maxW={['lg', 'md']} mx="auto" mt={['10', '0']} pb={20}>
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']} gap={4}>
+          <Box maxW={['xl', '4xl']} mx="auto" mt={['10', '0']} pb={20} >
             <Card
               p={6}
               bg="white"
-              
-              
-              
             >
               <form onSubmit={handleSubmit}>
               <FormControl id="nameoforganization" mb={4} isRequired>
@@ -147,8 +178,12 @@ function Sponsers() {
               </form>
             </Card>
           </Box>
-        </Box>
+          </Grid>
+          </Box>
+      </Container>
+    </Box>
     </>
+    
   );
 }
 

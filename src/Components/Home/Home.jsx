@@ -737,9 +737,11 @@ const Home = () => {
                 </CardBody>
               </Card>
 
+
           </SimpleGrid>
         </Container>
-      </Box>
+      </Box>     
+            
       {/* TESTIMONIALS  */}
       <Box 
         backgroundAttachment={'fixed'}
