@@ -518,12 +518,18 @@ const Home = () => {
       {/* COMMITIES  */}
       <Box width={'100%'} backgroundColor=" #FEFCE7" minHeight={'100vh'} pb={'20'}>
           <Container
-            minWidth={'85%'}
+            minWidth={['100%','85%']}
             minHeight="80vh"
             display="flex"
             flexDir={'column'}
             justifyContent="center"
             alignItems={'center'}
+            width={['100%', '80%']}
+            overflow="hidden"
+            variant="filled"
+            colorScheme={'green'}
+            marginTop={'10'}
+
           >
             <Heading color={'#E74E00'} letterSpacing="2px" marginTop={'20'}>
               {' '}
@@ -536,39 +542,54 @@ const Home = () => {
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             ></SimpleGrid>
             <div style={{ display: 'flex', justifyContent: 'space-between',gap:'20px' }}>
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
                   <Image src={unhrc} alt="Caffe Latte"/>
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>United Nations Human Rights Council (UNHCR)</Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">United Nations Human Rights Council (UNHCR)</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis </Text>
+                <CardBody p={['15px', '25px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis </Text>
                 </CardBody>
               </Card>
 
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
-                  <Image src={unscpic} alt="Caffe Latte"/>
+                  <Image src={aippm} alt="Caffe Latte"/>
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>LokSabha </Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">LokSabha</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology) </Text>
+                <CardBody p={['15px', '25px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology) </Text>
                 </CardBody>
               </Card>
 
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
                   <Image src={unscpic} alt="Caffe Latte"/>
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>United Nations Security Council (UNSC)</Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">United Nations Security Council (UNSC)</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas </Text>
+                <CardBody p={['15px', '25px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas </Text>
                 </CardBody>
               </Card>
             </div>
@@ -579,39 +600,54 @@ const Home = () => {
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             ></SimpleGrid>
             <div style={{ display: 'flex', justifyContent: 'space-between' ,gap:'20px'}}>
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
                   <Image src={unscpic} alt="Caffe Latte"/>
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>IMF </Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">IMF</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)  </Text>
+                <CardBody p={['15px', '25px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)  </Text>
                 </CardBody>
               </Card>
 
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
                   <Image src={unscpic} alt="Caffe Latte" />
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>Historical Crisis Committee</Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">Historical Crisis Committee</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>The Suez Canal Crisis (1956) </Text>
+                <CardBody p={['15px', '25px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>The Suez Canal Crisis (1956) </Text>
                 </CardBody>
               </Card>
 
-              <Card maxW='sm' variant='elevated'>
+              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
                 <CardFooter>
                   <Image src={ip_logo} alt="Caffe Latte" />
                 </CardFooter>
-                <CardHeader>
-                  <Heading size='md'>International Press (IP)</Heading>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">International Press (IP)</Heading>
                 </CardHeader>
-                <CardBody>
-                  <Text>Reporter | Photographer | Caricaturist </Text>
+                <CardBody p={['15px', '50px']}>
+                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Reporter | Photographer | Caricaturist </Text>
                 </CardBody>
               </Card>
             </div>
