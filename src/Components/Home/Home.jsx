@@ -170,7 +170,8 @@ const Home = () => {
                 to introduce Model UN to the crowd.
               </Text>
               <Link onClick={onClose} to="/Aboutus">
-              <Button 
+              <Button
+              colorScheme='orange' 
               variant={'solid'} 
               bgColor="#E74E00" 
               color={'white'}
