@@ -168,7 +168,7 @@ const Home = () => {
                 Shri Kulbhushan Kothari, our journey began in 2012, with us being the first institution in Jaipur and second in Rajasthan 
                 to introduce Model UN to the crowd.
               </Text>
-              <Link onClick={onClose} to="/munconference">
+              <Link onClick={onClose} to="/Aboutus">
               <Button 
               variant={'solid'} 
               bgColor="#E74E00" 
@@ -291,12 +291,14 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    JECRC MUN is an ideal place to hone your public speaking,
+                    {/* JECRC MUN is an ideal place to hone your public speaking,
                     writing and analytical skills. All writing piece will
                     involve your research and analytical abilities. Public
                     speaking is a fundamental part of the conference and it
                     requires you to adapt to several situations to have a strong
-                    and effective debate.
+                    and effective debate. */}
+                    JECRC MUN is an ideal place to hone your public speaking, writing, and analytical skills. All writing pieces will involve your research and analytical abilities. 
+                    Public speaking is a fundamental part of the conference, requiring you to adapt to several situations to engage in strong and effective debates. 
                   </Text>
                 </CardBody>
               </Card>
@@ -327,12 +329,15 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    JECRC MUN will provide you with an opportunity to meet many
+                    {/* JECRC MUN will provide you with an opportunity to meet many
                     talented people throughout the country, discover new
                     cultures and their different perspective. You can grow your
                     network for the future by making new contacts. You also
                     build precious memories and friendships that will last
-                    forever.
+                    forever. */}
+                    JECRC MUN will provide you with an opportunity to meet many talented people from across the country, discover new cultures, and gain different perspectives. 
+                    You can expand your network for the future by establishing new contacts. 
+                    Additionally, you will create cherished memories and forge friendships that will last a lifetime. 
                   </Text>
                 </CardBody>
               </Card>
@@ -363,11 +368,13 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    Model UN is a great educational tool that provides extremely
-                    valuable benefits to students. At JECRC MUN, students learn
+                    {/* Model UN is a great educational tool that provides extremely
+                    {/* valuable benefits to students. At JECRC MUN, students learn
                     from each other. MUN conferences are fun and during the
                     conference, you will meet other delegates and senior
-                    delegates who can help you in learning new things.
+                    delegates who can help you in learning new things. */}
+                    Model UN is a great educational tool that offers extremely valuable benefits to students. At JECRC MUN, students learn from each other. 
+                    MUN conferences are enjoyable, and during the conference, you will meet other delegates and senior delegates who can help you learn new things. 
                   </Text>
                 </CardBody>
               </Card>
@@ -399,7 +406,7 @@ const Home = () => {
               fontSize={['22px', '35px']}
               marginTop={'20'}
             >
-              Become Campus Ambassador
+              BECOME CAMPUS AMBASSADOR
             </Heading>
             <SimpleGrid
               marginTop={'20'}
@@ -425,7 +432,7 @@ const Home = () => {
                     letterSpacing={'2px'}
                   >
                     {' '}
-                    Perks and Entitlements
+                    PERKS AND ENTITLEMENTS
                   </Heading>
                 </CardHeader>
                 <CardBody>
@@ -434,11 +441,13 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    Campus Ambassadors of JECRC MUN are entitled to additional
+                    {/* Campus Ambassadors of JECRC MUN are entitled to additional
                     benefits in form of concessions and discounts. This is an
                     opportunity to make your conference experience more
                     fulfilling, by paying the fee simply with your networking
-                    skills.
+                    skills. */}
+                    Campus Ambassadors of JECRC MUN are entitled to additional benefits in the form of concessions and discounts. 
+                    This is an opportunity to make your conference experience more fulfilling, by paying the fee simply with your networking skills. 
                   </Text>
                 </CardBody>
               </Card>
@@ -460,7 +469,7 @@ const Home = () => {
                     letterSpacing={'2px'}
                   >
                     {' '}
-                    Networking Skills
+                    NETWORKING SKILLS
                   </Heading>
                 </CardHeader>
                 <CardBody>
@@ -469,10 +478,12 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    As a campus ambassador you get to enhance your network
+                    {/* As a campus ambassador you get to enhance your network
                     within your campus with the prestigious tag of JECRC MUN.
                     Get an edge at being heard by your peers and connect with
-                    them at a greater level, honing your interpersonal skills.
+                    them at a greater level, honing your interpersonal skills. */}
+                    As a campus ambassador, you get to enhance your network within your campus with the prestigious tag of JECRC MUN. 
+                    Gain an edge in being heard by your peers and connect with them at a deeper level, honing your interpersonal skills. 
                   </Text>
                 </CardBody>
               </Card>
@@ -494,7 +505,7 @@ const Home = () => {
                     letterSpacing={'2px'}
                   >
                     {' '}
-                    Recognition
+                    RECOGNITION
                   </Heading>
                 </CardHeader>
                 <CardBody>
@@ -503,11 +514,13 @@ const Home = () => {
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
                   >
-                    The merits of being a Campus Ambassador don't end with the
+                    {/* The merits of being a Campus Ambassador don't end with the
                     conference, but stay with you thereafter. A certificate
                     recognizing your milestones will be conferred upon you,
                     investing the repute and excellence of JECRC MUN on you as
-                    well.
+                    well. */}
+                    The merits of being a Campus Ambassador don't end with the conference, but stay with you thereafter. 
+                    A certificate recognizing your milestones will be conferred upon you, investing the reputation and excellence of JECRC MUN in you as well. 
                   </Text>
                 </CardBody>
               </Card>
