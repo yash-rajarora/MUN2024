@@ -664,6 +664,9 @@ const Home = () => {
                 </CardBody>
               </Card>
             </div>
+            </Container>
+      </Box>
+      
             {/* <Card
               width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row' }}
@@ -832,10 +835,10 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Stack>
-            </Card> */}
+            </Card> 
             </Container>
         
-      </Box>
+      </Box>*/}
       {/* TESTIMONIALS  */}
       <Box 
         backgroundAttachment={'fixed'}
