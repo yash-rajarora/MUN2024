@@ -30,11 +30,12 @@ import saloni from "../../Assets/testimonials/saloni.jpg";
 import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
-import unscpic from '../../Assets/Logos/unsc.png';
-import aippm from'../../Assets/Logos/aippm.png';
-import ecofin from'../../Assets/Logos/ecofin.webp';
+import imf from '../../Assets/Logos/IMF.png';
+import log_sabha from'../../Assets/Logos/LogSabha.png';
+import HCC from'../../Assets/Logos/HCC.png';
 import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
+import unsc from '../../Assets/Logos/unsc.png'
 import unga from '../../Assets/Logos/UNGA.png';
 import zhs from '../../Assets/images/Group 133.png';
 import Speaker from './speaker.json'
@@ -169,7 +170,8 @@ const Home = () => {
                 to introduce Model UN to the crowd.
               </Text>
               <Link onClick={onClose} to="/Aboutus">
-              <Button 
+              <Button
+              colorScheme='orange' 
               variant={'solid'} 
               bgColor="#E74E00" 
               color={'white'}
@@ -530,315 +532,217 @@ const Home = () => {
       </Box>
       {/* COMMITIES  */}
       <Box width={'100%'} backgroundColor=" #FEFCE7" minHeight={'100vh'} pb={'20'}>
-          <Container
-            minWidth={['100%','85%']}
-            minHeight="80vh"
-            display="flex"
-            flexDir={'column'}
-            justifyContent="center"
-            alignItems={'center'}
-            width={['100%', '80%']}
-            overflow="hidden"
-            variant="filled"
-            colorScheme={'green'}
-            marginTop={'10'}
-
+        <Container
+          minWidth={['100%','85%']}
+          minHeight="80vh"
+          display="flex"
+          flexDir={'column'}
+          justifyContent="center"
+          alignItems={'center'}
+        >
+          <Heading color={'#E74E00'} letterSpacing="2px" marginTop={'20'} alignContent={'center'}>
+            
+            COMMITTEES AND AGENDAS FOR THIS EDITION
+          </Heading>
+          <SimpleGrid
+            marginTop={'5'}
+            marginBottom={['5','20']}
+            mx={['10','0']}
+            spacing={4}
+            templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
           >
-            <Heading color={'#E74E00'} letterSpacing="2px" marginTop={'20'}>
-              {' '}
-              COMMITTEES AND AGENDAS FOR THIS EDITION
-            </Heading>
-            <SimpleGrid
-              marginTop={'1'}
-              marginBottom={'20'}
-              spacing={4}
-              templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
-            ></SimpleGrid>
-            <div style={{ display: 'flex', justifyContent: 'space-between',gap:'20px' }}>
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={unhrc} alt="Caffe Latte"/>
-                </CardFooter>
+            <Card size={'lg'} background={'#ffd9b3'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">United Nations Human Rights Council (UNHCR)</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={unhrc} alt="unhrc"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    United Nations Human Rights Council (UNHCR)
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '25px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis
+                  </Text>
                 </CardBody>
               </Card>
-
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={aippm} alt="Caffe Latte"/>
-                </CardFooter>
+              <Card size={'lg'} background={'#ffffff'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">LokSabha</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={log_sabha} alt="Log Sabha"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    Lok Sabha 
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '25px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology) </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology)
+                  </Text>
                 </CardBody>
               </Card>
-
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={unscpic} alt="Caffe Latte"/>
-                </CardFooter>
+              <Card size={'lg'} background={'#ffd9b3'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">United Nations Security Council (UNSC)</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={imf} alt="IMF"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    International Monetary Fund(IMF) 
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '25px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)
+                  </Text>
                 </CardBody>
               </Card>
-            </div>
-            <SimpleGrid
-              marginTop={'1'}
-              marginBottom={'20'}
-              spacing={4}
-              templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
-            ></SimpleGrid>
-            <div style={{ display: 'flex', justifyContent: 'space-between' ,gap:'20px'}}>
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={unscpic} alt="Caffe Latte"/>
-                </CardFooter>
+              <Card size={'lg'} background={'#ffffff'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">IMF</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={unsc} alt="UNSC"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    United Nations Security Council(UNSC) 
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '25px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)  </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas 
+                  </Text>
                 </CardBody>
               </Card>
-
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={unscpic} alt="Caffe Latte" />
-                </CardFooter>
+              <Card size={'lg'} background={'#ffd9b3'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">Historical Crisis Committee</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={HCC} alt="HCC"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    Historical Crisis Committee(HCC)
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '25px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>The Suez Canal Crisis (1956) </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    The Suez Canal Crisis (1956)
+                  </Text>
                 </CardBody>
               </Card>
-
-              <Card maxW='sm' variant='elevated' background={'#E74E00'}>
-                <CardFooter>
-                  <Image src={ip_logo} alt="Caffe Latte" />
-                </CardFooter>
+              <Card size={'lg'} background={'#ffffff'}>
                 <CardHeader
                   display={'flex'}
                   flexDir="column"
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                <Heading size="md" fontWeight={'semibold'} fontFamily="body" textAlign="start">International Press (IP)</Heading>
+                  <Heading fontSize={['50px', '100px']}>
+                  <Image src={ip_logo} alt="International Press"/>
+                  </Heading>
+                  <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    International Press (IP)
+                  </Heading>
                 </CardHeader>
-                <CardBody p={['15px', '50px']}>
-                <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>Reporter | Photographer | Caricaturist </Text>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                  >
+                    Reporter | Photographer | Caricaturist
+                  </Text>
                 </CardBody>
               </Card>
-            </div>
-            </Container>
-      </Box>
-      
-            {/* <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row' }}
-              overflow="hidden"
-              variant="filled"
-              colorScheme={'green'}
-              marginTop={'10'}
-            >
-             <Image
-                objectFit="contain"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={unscpic}
-                alt="Caffe Latte"
-              /> 
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
-                  United Nations Security Council (UNSC)
-                  </Heading>
-
-                  <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>
-                    Urgent discussions on gun control, and enforcement of measures intended to restrict the possession and the use of 
-                    firearms.
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row-reverse' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-             <Image
-                objectFit="contain"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={aippm}
-                alt="Caffe Latte"
-              /> 
-              
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
-                  All India Political Parties Meet (AIPPM)
-                  </Heading>
-                  
-
-                  <Text py="2" fontSize={['15px', '20px']}>
-                  Deliberation on Union Budget, 2023 with special emphasis on unemployment and agriculture.
-
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-              <Image
-                objectFit="contain"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={unhrc}
-                alt="Caffe Latte"
-              />
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
-                  United Nations Human Rights Council (UNHRC):
-                  </Heading>
-                  
-
-                  <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>
-                  Protecting victims of human trafficking in conflict and post-conflict situations. (Special emphasis on women and children)
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row-reverse' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-              <Image
-                objectFit="contain"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={ecofin}
-                alt="Caffe Latte"
-              />
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
-                  Economic and Financial Affairs Council (ECOFIN)
-                  </Heading>
-                  
-
-                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
-                  Discussion on the international banking crisis and its impact.
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-              <Image
-                objectFit="cover"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={unga}
-                alt="Caffe Latte"
-              />
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
-                  Social, Humanitarian, and Cultural Committee (UNGA-SOCHUM)
-                  </Heading>
-                  
-
-                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
-                  Addressing all forms of discrimination against people belonging to marginalized sexual orientations & gender identities.
 
 
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Card
-              width={['100%', '80%']}
-              direction={{ base: 'column', sm: 'row-reverse' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-              <Image
-                objectFit="contain"
-                maxW={{ base: '100%', sm: '300px' }}
-                src={ip_logo}
-                alt="Caffe Latte"
-              />
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="left">
-                  International Press (IP): 
-
-                  </Heading>
-                  
-
-                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
-                  Reporter | Photographer | Caricaturist
-
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card> 
-            </Container>
-        
-      </Box>*/}
+          </SimpleGrid>
+        </Container>
+      </Box>     
+            
       {/* TESTIMONIALS  */}
       <Box 
         backgroundAttachment={'fixed'}

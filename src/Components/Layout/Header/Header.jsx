@@ -21,7 +21,7 @@ import { GrDocumentConfig, GrGallery,GrMoney} from 'react-icons/gr';
 import { AiOutlineHome } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { FaChevronDown, FaRegHandshake } from 'react-icons/fa';
-import logo from '../../../Assets/Logos/munlogo23green.png';
+import logo from '../../../Assets/Logos/mun2024.png';
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
