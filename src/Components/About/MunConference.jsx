@@ -63,9 +63,11 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    Each year, our MUN Conference transforms the JECRC campus into a vibrant hub of diverse perspectives and meaningful 
+                    {/* Each year, our MUN Conference transforms the JECRC campus into a vibrant hub of diverse perspectives and meaningful 
                     discussions. Drawing students from across the nation, this two-day event immerses participants in the intricate world 
-                    of national and international committees, offering a unique opportunity to engage in serious, impactful dialogue.
+                    of national and international committees, offering a unique opportunity to engage in serious, impactful dialogue. */}
+                    JECRC MUN is a community established with the aim of creating a society for youth to discuss, debate and deliberate 
+                    present-day crises contributing towards solutions for global imbalance. 
                   </Text>
                   <Text
                     className="about_text"
@@ -74,10 +76,16 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    JECRC MUN is more than just a conference, it is an experience that goes beyond the committee rooms. It's a celebration 
+                    {/* JECRC MUN is more than just a conference, it is an experience that goes beyond the committee rooms. It's a celebration 
                     of ideas, a platform for collaboration, and a journey towards personal and academic growth. Join us as we create a 
                     space where students not only articulate their views but also develop the skills to shape a better, more interconnected
-                    world.
+                    world. */}
+                    Focusing on the need to value ideas and approach toward solutions for the atrocities around the globe, some like-minded
+                    individuals figured a need for such a platform for people to discuss and deliberate With the laying of the foundation 
+                    by Shri Kulbhushan Kothari, our journey began in 2012, with us being the first institution in Jaipur and second in 
+                    Rajasthan to introduce Model UN to the crowd. Commemorating the 12 years of legacy, we stand firm as the host of 
+                    exceptional MUN conferences in the state. With the collective efforts of our enthusiastic and extensive organizing 
+                    committees over the years, we have arisen as one of the best and most promising Model UN societies in India. 
 
                   </Text>
                   <Text
@@ -87,8 +95,9 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    Explore the JECRC MUN Conference – where ideas converge, leaders emerge, and global perspectives take center stage.
-
+                    {/* Explore the JECRC MUN Conference – where ideas converge, leaders emerge, and global perspectives take center stage. */}
+                    We aspire to involve youth in international dialogue, deliberate upon the dire issues of the world, and shape them 
+                    into strong individuals molding them into the leaders of tomorrow. 
 
                   </Text>
                   <Stack align="center" pt="10">
