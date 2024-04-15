@@ -10,7 +10,7 @@ import {
   Wrap,
 } from '@chakra-ui/react';
 import React from 'react';
-import image from '../../../Assets/Logos/mun2023.png';
+import image from '../../../Assets/Logos/mun24.png';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 

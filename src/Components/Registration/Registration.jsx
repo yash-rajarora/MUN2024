@@ -43,7 +43,7 @@ const Registration = () => {
                   variant="solid" 
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfXSXwwz8x2OB_0jFGODn5m81WYU9Ea5pKbX65nRHuuXDv_QA/viewform';
+                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSepisGb0yl30F3u1QeDnz3vWmGSD2F4V1Vyo1pYwOVum2uLQg/viewform';
                   }}>Register Now !</Button>
                 </CardFooter>
               </Card>
@@ -59,7 +59,7 @@ const Registration = () => {
                      
                   </Text>
                   <Text textAlign={'center'} marginBottom="5">
-                    Delegate Fees 2000/-
+                    Delegate Fees 2200/-
                   </Text>
                   <Button 
                   colorScheme={'orange'} 
@@ -67,7 +67,7 @@ const Registration = () => {
                   variant="solid"
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://forms.gle/b1P18DUdhwZund2y6';
+                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScad81MpbvE4iGFBpSP_tD_JxcGsQooLwN3Fm7MG05JKV9KBw/viewform';
                   }}                  
                   >Register Now !</Button>
                 </CardFooter>
@@ -84,7 +84,7 @@ const Registration = () => {
                      
                   </Text>
                   <Text textAlign={'center'} marginBottom="5">
-                    Delegate Fees 2000/-
+                    Delegate Fees 2200/-
                   </Text>
                   <Button 
                   colorScheme={'orange'} 
@@ -92,7 +92,7 @@ const Registration = () => {
                   variant="solid" 
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://forms.gle/AuBeYYUcjP92vuuo8';
+                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc9m_gUhHo_mEdn8OsL1BQoxmhlrFqo7FC2ahYjmK3gQjY0Kw/viewform';
                   }}  >Register Now !</Button>
                 </CardFooter>
               </Card>
@@ -113,7 +113,7 @@ const Registration = () => {
                   variant="solid" 
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://forms.gle/Hq3uGTTqjmaexZp77';
+                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeSOcRxSW7dtwTw3dy5rsOcjeMzaKuEKpsWK_JIGGf7qUCRtg/viewform';
                   }} >Register Now !</Button>
                 </CardFooter>
               </Card>

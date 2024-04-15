@@ -27,7 +27,7 @@ import shrey from "../../Assets/testimonials/shrey.jpg";
 import sarthak from "../../Assets/testimonials/sarthak.jpg";
 import rishit from "../../Assets/testimonials/rishit.jpg";
 import saloni from "../../Assets/testimonials/saloni.jpg";
-import logo from '../../Assets/Logos/mun2023.png';
+import logo from '../../Assets/Logos/mun24.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
 import imf from '../../Assets/Logos/IMF.png';
