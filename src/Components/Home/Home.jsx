@@ -1602,7 +1602,7 @@ const Home = () => {
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             gap={5}
-            ml={['0','10%']}
+            ml={['0','1%']}
           >
           {Speaker &&
               Speaker.map(Speakers => {

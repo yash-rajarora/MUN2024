@@ -1,12 +1,12 @@
 [{
   "name": "Siddhi Jain",
-  "designation": "USG Designing",
+  "designation": " Designing Head ",
   "image": "./TeamImages/SiddhiJain_GD.jpg",
   "linkedin":"https://www.linkedin.com/in/siddhi-jain-77298b220"
 },
 {
   "name": "Khush Goyal",
-  "designation": "USG Designing",
+  "designation": "Designing Head",
   "image": "./TeamImages/khush_gd.jpg",
   "linkedin":"https://www.linkedin.com/in/khushgoyal17/"
 },
@@ -17,11 +17,12 @@
   "linkedin":"https://www.linkedin.com/in/khushi-kabra-94b27b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 },
 {
-  "name":"Mahi Jain",
-  "designation":"USG Designing",
-  "image":"./TeamImages/MAHI JAIN_graphic designing.jpg",
-  "linkedin":"https://www.linkedin.com/in/mahi-jain-632639256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  "name": "Archita Agrawal ",
+  "designation": "USG Digital Marketing",
+  "image": "./TeamImages/ArchitaAgrawal_digital.jpg",
+  "linkedin":"https://www.linkedin.com/in/archita-agrawal-073886242"
 },
+
 {
   "name":"Vranda Toshniwal ",
   "designation":"USG Designing",

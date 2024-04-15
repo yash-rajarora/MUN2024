@@ -1,47 +1,45 @@
 [{
   "name": "Sapan Mittal",
-  "designation": "Core Member",
+  "designation": "Secretary General",
   "image": "./TeamImages/Sapan_Mittal_Content&Collaboration.jpg",
   "linkedin":"https://www.linkedin.com/in/sapan-mittal-8193361bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 },
-    {
-      "name": "Khushi Garg",
-      "designation": "Core Member",
-      "image": "./TeamImages/Khushi Garg_Technical.jpg",
-      "linkedin":"https://www.linkedin.com/in/khushigarg123/"
-    },
-    {
+
+{
+  "name": "Manshi Singh",
+  "designation": "Deputy Secretary General",
+  "image": "./TeamImages/Manshi_da.jpg",
+  "linkedin":"https://www.linkedin.com/in/manshi-singh-bb66261bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+  "name": "Poorvi Gupta",
+  "designation": "Joint Secretary",
+  "image": "./TeamImages/poorvi_content.jpg",
+  "linkedin":"https://www.linkedin.com/in/poorvi-gupta-bb5aa7229"
+},
+ {
       "name": "Avi Sharma",
-      "designation": "Core Member",
+      "designation": "OC President",
       "image": "./TeamImages/avisharma_content.jpg",
       "linkedin":"https://www.linkedin.com/in/avi-sharma-a50b13212/"
-    },
+ },
   
-    {
-      "name": "Manshi Singh",
-      "designation": "Core Member",
-      "image": "./TeamImages/Manshi_da.jpg",
-      "linkedin":"https://www.linkedin.com/in/manshi-singh-bb66261bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
-  
-    {
+  {
       "name": "Jerin Jacob",
-      "designation": "Core Member",
+      "designation": "Director General",
       "image": "./TeamImages/Jerin Jacob_ digital marketing.jpg",
       "linkedin":"https://www.linkedin.com/in/jerin-jacob-j17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
+   },
+  
+  
+      
     {
-      "name": "Aditya Panwar",
-      "designation": "Core Member",
-      "image": "./TeamImages/Aditya panwar_Graphic_design.jpg",
-      "linkedin":"https://www.linkedin.com/in/aditya-panwar-1623351bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
-    {
-      "name": "Poorvi Gupta",
-      "designation": "Core Member",
-      "image": "./TeamImages/poorvi_content.jpg",
-      "linkedin":"https://www.linkedin.com/in/poorvi-gupta-bb5aa7229"
+      "name": "Khushi Garg",
+      "designation": "Deputy Director General",
+      "image": "./TeamImages/Khushi Garg_Technical.jpg",
+      "linkedin":"https://www.linkedin.com/in/khushigarg123/"
     }
+   
   ]
 
 

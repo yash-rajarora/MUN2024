@@ -1,31 +1,16 @@
 [{
   "name": "Tejasvi Ola",
-  "designation": "USG Content",
+  "designation": "Content Head",
   "image": "./TeamImages/Tejasvi_content.jpg",
   "linkedin":"https://www.linkedin.com/in/tejasvi-ola-40aa9a24b"
 },
-{
-  "name": "Radhika Rajawat",
-  "designation": "USG Content",
-  "image": "./TeamImages/Radhika Rajawat_Content and collaboration.jpg",
-  "linkedin":"https://www.linkedin.com/in/radhika-rajawat-b05615241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-},
+
 {"name":"Asmita Goyal",
 "designation":"USG Content",
 "image":"./TeamImages/Asmita Goyal_Content.jpg",
 "linkedin":"https://www.linkedin.com/in/asmita-goyal-39013626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 },
-{
-  "name":"Rahul R choudhary ",
-  "designation":"USG Content",
-  "image":"./TeamImages/RahulR_content.jpg",
-  "linkedin":"https://www.linkedin.com/in/rahul-r-choudhary-828628256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-},
-{"name":"Rashi Gupta",
-"designation":"USG Content",
-"image":"./TeamImages/Rashi Gupta_Content.jpg" ,
-"linkedin":"https://www.linkedin.com/in/rashi-gupta-63a724294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-},
+
 {
   "name":"Kartik Saxena ",
   "designation":"USG Content",

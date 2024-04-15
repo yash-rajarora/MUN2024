@@ -1,12 +1,12 @@
 [{
   "name": "Saloni Jain",
-  "designation": "USG DA",
+  "designation": "DA Head",
   "image": "./TeamImages/Saloni Jain_Delegate Affair.jpeg",
   "linkedin":"https://www.linkedin.com/in/sj28/"
 },
 {
   "name":"Tisha Pareek",
-  "designation":"USG DA",
+  "designation":"DA Head",
   "image":"./TeamImages/Tisha_Pareek Delegate_Affairs.jpg",
   "linkedin":"#"
 },
@@ -15,11 +15,5 @@
   "designation": "USG DA",
   "image": "./TeamImages/Bhumi Jain _Delegate affairs.png",
   "linkedin":" https://www.linkedin.com/in/bhumi-jain-91ba92257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-},
-{
-  "name": "Priyadarshni ",
-  "designation": "USG DA",
-  "image": "./TeamImages/priyadarshni_delegate.jpg",
-  "linkedin":"https://www.linkedin.com/in/priyadarshni-p-984872219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 }
 ]

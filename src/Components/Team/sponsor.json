@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tanya Moolchandani",
+        "designation": "Sponsorship Head",
+        "image": "./TeamImages/Tanya Moolchandani _Outreach.jpg",
+        "linkedin":"https://www.linkedin.com/in/tanya-moolchandani-96850523b"
+      },
+      {
+        "name":"Manvi Vijay ",
+        "designation":"USG sponsorship",
+        "image":"./TeamImages/Manvi Vijay_Outreach.jpg",
+        "linkedin":"https://www.linkedin.com/in/manvi-vijay-b79127257"
+      },
+      {
+        "name":"Yash Agarwal",
+        "designation":"USG sponsorship",
+        "image":"./TeamImages/Yash Agarwal outreach.jpg",
+        "linkedin":"https://www.linkedin.com/in/yash-agarwal-ab43a3259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      }
+]
