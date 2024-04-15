@@ -107,34 +107,21 @@ function Sponsers() {
         </Box>
       </Box>
 
-      <Box position={'relative'} backgroundColor={' #FEFCE7'}>
-      <Container
-        as={SimpleGrid}
-        maxW={['7xl','7xl']}
-        columns={{ base: 1, md: 2 }}
-        spacing={{ base: 10, lg: 32 }}
-        py={{ base: 10, sm: 20, lg: 32 }}>
-          <Stack
-            display={'flex'}
-            flexDir={['column', 'row']}
-            marginTop={'10'}
-            alignItems={['center', 'flex-start']}
-          >
-
-        <VStack alignItems={['center', 'flex-start']} pt={'8%'} width={['100%', '100%']}>
-          <Image width={['85%', '80%']} src={Collaborations} />
-        </VStack>
-          </Stack>
-          
-    <Box maxW={['xl', '4xl']} mx="auto" mt={['10', '0']} pb={20} width="100%">
-      <Heading as="h1" size="xl" textAlign="center" my={6}>
+      <Box bg={" #FEFCE7"} pb={['0','10']} pt={10}>
+      <SimpleGrid
+        minChildWidth="320px"
+        spacing={['40px', '0']}
+      >
+        <Box>
+          <Box maxW={['lg', 'md']} mx="auto" mt={['10', '0']}>
+          <Heading as="h1" size="xl" textAlign="center" my={6}>
           Become Our Sponsor
         </Heading>
-        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']} gap={4}>
-          <Box maxW={['xl', '4xl']} mx="auto" mt={['10', '0']} pb={20} >
             <Card
               p={6}
               bg="white"
+              boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)"
+              borderRadius="md"
             >
               <form onSubmit={handleSubmit}>
               <FormControl id="nameoforganization" mb={4} isRequired>
@@ -178,13 +165,27 @@ function Sponsers() {
               </form>
             </Card>
           </Box>
-          </Grid>
           </Box>
-      </Container>
-    </Box>
+          <Stack
+            display={'flex'}
+            flexDir={['column', 'row']}
+            marginTop={'10'}
+            alignItems={['center', 'flex-start']}
+          >
+
+        <VStack alignItems={['center', 'flex-start']} pt={'8%'} width={['100%', '100%']}>
+          <Image width={['85%', '80%']} src={Collaborations} />
+        </VStack>
+          </Stack>
+          </SimpleGrid>
+          </Box>
     </>
     
   );
 }
 
+
 export default Sponsers;
+
+
+
