@@ -9,6 +9,10 @@
         "designation": "USG Technical",
         "image": "./TeamImages/yasharora_tech.jpg",
         "linkedin": "https://www.linkedin.com/in/yash-raj-arora-432728239/"
-    }
-    
+    },
+    {"name": "Antriksh Bajak",
+    "designation": "USG Technical",
+    "image": "./TeamImages/antriksh1.jpg",
+    "linkedin": "https://www.linkedin.com/in/antriksh-bajak-612745256/"
+}
 ]
