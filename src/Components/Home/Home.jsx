@@ -276,7 +276,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaBookReader fa-regular color="#E74E00" />
                   </Heading>
-                  <Heading
+                 
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -286,12 +288,12 @@ const Home = () => {
                     {' '}
                     SKILLS
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* JECRC MUN is an ideal place to hone your public speaking,
                     writing and analytical skills. All writing piece will
@@ -314,7 +316,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaConnectdevelop color="#E74E00" />
                   </Heading>
-                  <Heading
+                  
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -324,12 +328,12 @@ const Home = () => {
                     {' '}
                     NETWORKING
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* JECRC MUN will provide you with an opportunity to meet many
                     talented people throughout the country, discover new
@@ -353,7 +357,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaRegShareSquare color="#E74E00" />
                   </Heading>
-                  <Heading
+                  
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -363,12 +369,12 @@ const Home = () => {
                     {' '}
                     LEARN FROM OTHERS
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* Model UN is a great educational tool that provides extremely
                     {/* valuable benefits to students. At JECRC MUN, students learn
@@ -426,7 +432,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaRegCalendarCheck color="#E74E00" />
                   </Heading>
-                  <Heading
+                  
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -436,12 +444,12 @@ const Home = () => {
                     {' '}
                     PERKS AND ENTITLEMENTS
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* Campus Ambassadors of JECRC MUN are entitled to additional
                     benefits in form of concessions and discounts. This is an
@@ -463,7 +471,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaCreativeCommonsBy color="#E74E00" />
                   </Heading>
-                  <Heading
+                  
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -473,12 +483,12 @@ const Home = () => {
                     {' '}
                     NETWORKING SKILLS
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* As a campus ambassador you get to enhance your network
                     within your campus with the prestigious tag of JECRC MUN.
@@ -499,7 +509,9 @@ const Home = () => {
                   <Heading fontSize={['50px', '100px']}>
                     <FaAngellist color="#E74E00" />
                   </Heading>
-                  <Heading
+                 
+                </CardHeader>
+                <Heading
                     size="md"
                     textAlign={'center'}
                     fontSize={'25px'}
@@ -509,12 +521,12 @@ const Home = () => {
                     {' '}
                     RECOGNITION
                   </Heading>
-                </CardHeader>
                 <CardBody>
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     {/* The merits of being a Campus Ambassador don't end with the
                     conference, but stay with you thereafter. A certificate
