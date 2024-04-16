@@ -18,6 +18,7 @@ import Ramanan from './Components/Ramanan';
 import Registrationzhs from './Components/Registration/Registrationzhs';
 import AboutUs from './Components/About/Aboutus';
 import BackgroundGuideZhs from './Components/BackgroundGuide/backgroundzhs';
+import Testimonials from './Components/Testimonials';
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -38,6 +39,7 @@ function App() {
         <Route element={<Contact />} exact path='/contact' />
         <Route element={<Teams />} exact path='/team' />
         <Route element={<TechnicalTeams />} exact path='/technicalteam' />
+        <Route element = {<Testimonials />} exact path='/testimonials' />
         <Route element={<GalleryZhs />} exact path='/GalleryZhs' />
         <Route element={<Collaboration />} exact path='/Collaboration' />
         <Route element={<Ramanan />} exact path='/Ramanan' />

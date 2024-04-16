@@ -24,6 +24,8 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import test1 from '../../Assets/testimonials/testimonial1.jpg'
+import pratham from '../../Assets/testimonials/pratham.jpeg'
+import shyam from '../../Assets/testimonials/shyam.jpeg'
 import logo from '../../Assets/Logos/mun24.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
@@ -33,8 +35,6 @@ import HCC from'../../Assets/Logos/HCC.png';
 import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
 import unsc from '../../Assets/Logos/unsc.png'
-import unga from '../../Assets/Logos/UNGA.png';
-import zhs from '../../Assets/images/Group 133.png';
 import Speaker from './speaker.json'
 
 import './Home.css';
@@ -817,9 +817,9 @@ const Home = () => {
                 </Box>
               </Stack>
               <Flex align={'center'} mt={8} direction={'column'}>
-                <Avatar src={'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'} mb={2} size={'xl'} />
+                <Avatar src={pratham} mb={2} size={'xl'} />
                 <Stack spacing={-1} align={'center'}>
-                  <Text fontWeight={600} color={'white'}>{'Jane Cooper'}</Text>
+                  <Text fontWeight={600} color={'white'}>{'Pratham Kabra'}</Text>
                   
                   
                 </Stack>
@@ -860,13 +860,30 @@ const Home = () => {
                   </Box>
               </Stack>
               <Flex align={'center'} mt={8} direction={'column'}>
-                <Avatar src={'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'} mb={2} size={'xl'}/>
+                <Avatar src={shyam} mb={2} size={'xl'}/>
                 <Stack spacing={-1} align={'center'}>
-                  <Text fontWeight={600} color={'white'}>{'Jane Cooper'}</Text>
+                  <Text fontWeight={600} color={'white'}>{'Shyam Garg'}</Text>
+                  <VStack
+              alignItems={['center', 'center']}
+              width={['100%', '50%']}
+              pt={'10'}
+            >
                   
-                  
+                  <Link onClick={onClose} to="/Testimonials">
+                      <Button
+                      colorScheme='orange'
+                      variant={'solid'} 
+                      bgColor="#E74E00" 
+                      color={'white'}
+                      size={['md', 'lg']}
+                      >
+                        Read More
+                      </Button>
+                      </Link>
+                      </VStack>
                 </Stack>
               </Flex>
+              
               
             </Box>
             <Box>
@@ -905,9 +922,7 @@ const Home = () => {
               <Flex align={'center'} mt={8} direction={'column'}>
                 <Avatar src={test1} mb={2} size={'xl'}/>
                 <Stack spacing={-1} align={'center'}>
-                  <Text fontWeight={600} color={'white'}>{'Tanishka sethia'}</Text>
-                  
-                  
+                  <Text fontWeight={600} color={'white'}>{'Tanishka sethia'}</Text> 
                 </Stack>
               </Flex>
               
