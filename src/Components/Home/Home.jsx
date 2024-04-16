@@ -3,7 +3,6 @@ import {
   Box,
   Button,
   Card,
-  CardFooter,
   CardBody,
   CardHeader,
   Container,
@@ -20,13 +19,11 @@ import {
   TabList, 
   TabPanels, 
   Tab,
-  TabPanel
+  TabPanel,
+  useColorModeValue
 } from '@chakra-ui/react';
 import React from 'react';
-import shrey from "../../Assets/testimonials/shrey.jpg";
-import sarthak from "../../Assets/testimonials/sarthak.jpg";
-import rishit from "../../Assets/testimonials/rishit.jpg";
-import saloni from "../../Assets/testimonials/saloni.jpg";
+import test1 from '../../Assets/testimonials/testimonial1.jpg'
 import logo from '../../Assets/Logos/mun24.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
@@ -50,6 +47,7 @@ import {
   FaRegShareSquare,
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+
 const Home = () => {
   const { onClose } = useDisclosure();
   return (
@@ -780,7 +778,143 @@ const Home = () => {
               {' '}
               TESTIMONIALS
           </Heading>
-          <SimpleGrid
+          <Stack
+            direction={{ base: 'column', md: 'row' }}
+            spacing={{ base: 10, md: 4, lg: 10 }}
+          >
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    
+                    JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimonials from the 12th Edition's esteemed delegates reaffirmed its success and significance. Their words echoed the event's vibrancy and impact, emphasizing its role as a valuable platform for learning, networking, and personal development.
+                  </Text>
+                </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'} mb={2} size={'xl'} />
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Jane Cooper'}</Text>
+                  
+                  
+                </Stack>
+              </Flex>
+              
+            </Box>
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    The JECRC MUN 2023 was a blockbuster, with excited and enthusiastic delegates filling the event. Eager and smiling faces were ubiquitous, reflecting the anticipation and enjoyment. Testimonials from esteemed delegates of the 12th Edition highlighted the event's success, showcasing the impact it had on participants.
+                  </Text>
+                  </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'} mb={2} size={'xl'}/>
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Jane Cooper'}</Text>
+                  
+                  
+                </Stack>
+              </Flex>
+              
+            </Box>
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                  <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    JECRC's two-day MUN Conference offered a dynamic platform for persuasive discourse and networking. Delegates showcased confidence and finesse in presenting diverse perspectives. Engaging agendas revitalized knowledge and diplomatic skills. Organizers ensured seamless execution, making the event truly remarkable.
+                  </Text>
+                  </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={test1} mb={2} size={'xl'}/>
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Tanishka sethia'}</Text>
+                  
+                  
+                </Stack>
+              </Flex>
+              
+            </Box>
+          </Stack>
+          
+          {/* <SimpleGrid
             spacing={4}
             templateColumns="repeat(auto-fill, minmax(100%, 1fr))"
             
@@ -901,7 +1035,7 @@ const Home = () => {
               </CardBody>
               
             </Card>
-          </SimpleGrid>
+          </SimpleGrid> */}
         </Container>
         </Container>
       </Box>
@@ -1597,7 +1731,7 @@ const Home = () => {
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            OUR PREVIOUS SPEAKER
+            OUR PREVIOUS SPEAKERS
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
