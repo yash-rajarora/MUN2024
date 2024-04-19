@@ -2,6 +2,7 @@ import { Box, Image,Grid,Container,Heading,Stack,useColorModeValue,Text,Flex,Ava
 import test1 from '../../src/Assets/testimonials/testimonial1.jpg'
 import pratham from '../../src/Assets/testimonials/pratham.jpeg'
 import shyam from '../../src/Assets/testimonials/shyam.jpeg'
+import Yashaswi from '../../src/Assets/testimonials/yashasvi.jpg'
 const Testimonials = () => { 
     return (
      <>
@@ -26,11 +27,13 @@ const Testimonials = () => {
      templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
      gap={['5','0']}
      >
-          </Grid>
+      </Grid>
+
           <Stack
             direction={{ base: 'column', md: 'row' }}
             spacing={{ base: 10, md: 4, lg: 10 }}
           >
+            
             <Box>
               <Stack
                 bg={useColorModeValue('#E74E00', 'gray.800')}
@@ -68,13 +71,13 @@ const Testimonials = () => {
               <Flex align={'center'} mt={8} direction={'column'}>
                 <Avatar src={pratham} mb={2} size={'xl'} />
                 <Stack spacing={-1} align={'center'}>
-                  <Text fontWeight={600} color={'black'}>{'Pratham Kabra'}</Text>
-                  
+                  <Text fontWeight={600} color={'black'}>{'Pratham Kabra'}</Text>      
                   
                 </Stack>
               </Flex>
-              
             </Box>
+
+
             <Box>
               <Stack
                 bg={useColorModeValue('#E74E00', 'gray.800')}
@@ -113,10 +116,10 @@ const Testimonials = () => {
                 <Stack spacing={-1} align={'center'}>
                   <Text fontWeight={600} color={'black'}>{'Shyam Garg'}</Text>
                 </Stack>
-              </Flex>
-              
-              
+              </Flex>  
             </Box>
+
+            
             <Box>
               <Stack
                 bg={useColorModeValue('#E74E00', 'gray.800')}

@@ -864,24 +864,6 @@ const Home = () => {
                 <Avatar src={shyam} mb={2} size={'xl'}/>
                 <Stack spacing={-1} align={'center'}>
                   <Text fontWeight={600} color={'white'}>{'Shyam Garg'}</Text>
-                  <VStack
-              alignItems={['center', 'center']}
-              width={['100%', '50%']}
-              pt={'10'}
-            >
-                  
-                  <Link onClick={onClose} to="/Testimonials">
-                      <Button
-                      colorScheme='orange'
-                      variant={'solid'} 
-                      bgColor="#E74E00" 
-                      color={'white'}
-                      size={['md', 'lg']}
-                      >
-                        Read More
-                      </Button>
-                      </Link>
-                      </VStack>
                 </Stack>
               </Flex>
               
@@ -929,6 +911,22 @@ const Home = () => {
               
             </Box>
           </Stack>
+          <Box>
+            <Flex justifyContent="center" mt={8}>
+              <Link onClick={onClose} to="/Testimonials">
+                <Button
+                  colorScheme="orange"
+                  variant="solid"
+                  bgColor="#E74E00"
+                  color="white"
+                  size={['md', 'lg']}
+                >
+                  Read More
+                </Button>
+              </Link>
+            </Flex>
+
+            </Box>
           
           {/* <SimpleGrid
             spacing={4}
