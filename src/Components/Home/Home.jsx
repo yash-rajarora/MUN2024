@@ -98,7 +98,7 @@ const Home = () => {
           13th Edition
         </Heading> */}
           <Heading textAlign={'center'} color={'#E74E00'} fontSize={['l', '2xl']} >
-          4th - 5th May
+          11th - 12th May
           </Heading>
           <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
             <Button
@@ -107,7 +107,7 @@ const Home = () => {
               border="2px solid white"
               fontWeight="medium"
               color="#E74E00"
-              marginTop={'10'}
+              marginTop={'5'}
               p="7"
               background={'#FEFCE7'}
               _hover={{
