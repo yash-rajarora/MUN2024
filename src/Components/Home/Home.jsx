@@ -83,10 +83,11 @@ const Home = () => {
             color={'#E74E00'}
             fontSize={['xl', '3xl']}
             fontWeight="semibold"
+            pb={'5'}
           >
             13th Edition
           </Heading>
-          {<Heading textAlign={'center'} color={'white'} fontSize={['2xl', '3xl']} fontWeight={'semibold'}>
+          {<Heading textAlign={'center'} color={'white'} fontSize={['2xl', '3xl']} fontWeight={'semibold'} pb={'5'}>
             Empowering Deliberations <br /> Shaping The World <br /> 
           </Heading>}
           
@@ -579,7 +580,7 @@ const Home = () => {
                     letterSpacing={'2px'}
                   >
                     {' '}
-                    United Nations Human Rights Council (UNHCR)
+                    United Nations High Commissioner for Refugees(UNHCR)
                   </Heading>
                 </CardHeader>
                 <CardBody>
