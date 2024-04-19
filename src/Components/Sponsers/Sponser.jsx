@@ -1,18 +1,10 @@
 import {
   Box,
-  Flex,
   Stack,
   Heading,
-  Text,
-  Container,
   Input,
   Button,
   SimpleGrid,
-  Avatar,
-  AvatarGroup,
-  useBreakpointValue,
-  IconProps,
-  Icon,
   Grid,
   VStack,
   Image,
@@ -28,7 +20,8 @@ import images from './Sponsers.json';
 import axios from 'axios';
 import React, { useState } from 'react';
 import Collaborations from '../../Assets/images/Collaborations.png';
-
+import sponsor1 from '../../Assets/SponsersImages/4.png';
+import sponsor2 from '../../Assets/SponsersImages/5.png';
 
 function Sponsers() {
   // const theme = useTheme();
@@ -83,6 +76,7 @@ function Sponsers() {
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             ml={['10%', '12%']}
             mr={['10%', '12%']}
+            mb={'5'}
             gap={4}
           >
             {images &&
@@ -103,6 +97,35 @@ function Sponsers() {
                   />
                 );
               })}
+          </Grid>
+          <Grid
+            templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+            ml={['10%', '12%']}
+            mr={['10%', '12%']}
+            gap={4}
+          >
+            <Image
+              background={'white'}
+              src={sponsor1}
+              alt={sponsor1}
+              w="100%"
+              h="250px"
+              borderRadius="md"
+              boxShadow="md"
+              objectFit={'contain'}
+              p={'10px'}
+            />
+            <Image
+              background={'white'}
+              src={sponsor2}
+              alt={sponsor2}
+              w="100%"
+              h="250px"
+              borderRadius="md"
+              boxShadow="md"
+              objectFit={'contain'}
+              p={'10px'}
+            />
           </Grid>
         </Box>
       </Box>
