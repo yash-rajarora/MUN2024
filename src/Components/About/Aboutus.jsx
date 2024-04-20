@@ -40,6 +40,7 @@ import {
                       letterSpacing={'1px'}
                       fontWeight={['normal','medium']}
                       fontSize={['15px',"17px"]}
+                      textAlign={'justify'}
                     >
                     {/* JECRC MUN is a community established with the aim of creating a society for youth to discuss, debate and deliberate 
                     present-day crises contributing towards solutions for global imbalance. */}
