@@ -65,7 +65,7 @@ const Home = () => {
           <Image width={['190px', '200px']} alignContent="center" src={logo} />
           <Heading
             color={'#E74E00'}
-            fontSize={['3xl', '6xl']}
+            fontSize={['3xl', '80px']}
             fontWeight="bold"
             textAlign={'center'}
           >
@@ -81,13 +81,13 @@ const Home = () => {
           </Heading> */}
           <Heading
             color={'#E74E00'}
-            fontSize={['xl', '3xl']}
+            fontSize={['xl', '4xl']}
             fontWeight="semibold"
             pb={'5'}
           >
             13th Edition
           </Heading>
-          {<Heading textAlign={'center'} color={'white'} fontSize={['2xl', '3xl']} fontWeight={'semibold'} pb={'5'}>
+          {<Heading textAlign={'center'} color={'white'} fontSize={['3xl', '4xl']} fontWeight={'semibold'} pb={'5'}>
             Empowering Deliberations <br /> Shaping The World <br /> 
           </Heading>}
           
@@ -97,7 +97,7 @@ const Home = () => {
           {/* <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           13th Edition
         </Heading> */}
-          <Heading textAlign={'center'} color={'#E74E00'} fontSize={['l', '2xl']} >
+          <Heading textAlign={'center'} color={'#E74E00'} fontSize={['xl', '4xl']} >
           11th - 12th May
           </Heading>
           <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
@@ -450,11 +450,6 @@ const Home = () => {
                     fontSize={['15px', '17px']}
                     textAlign={'justify'}
                   >
-                    {/* Campus Ambassadors of JECRC MUN are entitled to additional
-                    benefits in form of concessions and discounts. This is an
-                    opportunity to make your conference experience more
-                    fulfilling, by paying the fee simply with your networking
-                    skills. */}
                     Campus Ambassadors of JECRC MUN are entitled to additional benefits in the form of concessions and discounts. 
                     This is an opportunity to make your conference experience more fulfilling, by paying the fee simply with your networking skills. 
                   </Text>
@@ -541,7 +536,9 @@ const Home = () => {
           </Container>
         </Container>
       </Box>
+      
       {/* COMMITIES  */}
+
       <Box width={'100%'} backgroundColor=" #FEFCE7" minHeight={'100vh'} pb={'20'}>
         <Container
           minWidth={['100%','85%']}
@@ -570,12 +567,12 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={unhrc} alt="unhrc"/>
+                  <Image src={unhrc} alt="unhrc" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
                   >
@@ -588,6 +585,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis
                   </Text>
@@ -601,14 +599,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={log_sabha} alt="Log Sabha"/>
+                  <Image src={log_sabha} alt="Log Sabha" height={['100px','200px']}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     Lok Sabha 
@@ -619,6 +618,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology)
                   </Text>
@@ -632,14 +632,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={imf} alt="IMF"/>
+                  <Image src={imf} alt="IMF" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     International Monetary Fund(IMF) 
@@ -650,6 +651,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)
                   </Text>
@@ -663,12 +665,12 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={unsc} alt="UNSC"/>
+                  <Image src={unsc} alt="UNSC" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
                   >
@@ -681,6 +683,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas 
                   </Text>
@@ -694,14 +697,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={HCC} alt="HCC"/>
+                  <Image src={HCC} alt="HCC" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     Historical Crisis Committee(HCC)
@@ -712,6 +716,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     The Suez Canal Crisis (1956)
                   </Text>
@@ -725,14 +730,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={ip_logo} alt="International Press"/>
+                  <Image src={ip_logo} alt="International Press" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     International Press (IP)
@@ -743,6 +749,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Reporter | Photographer | Caricaturist
                   </Text>
