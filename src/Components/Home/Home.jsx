@@ -8,6 +8,8 @@ import {
   Container,
   Flex,
   Heading,
+  Badge,
+  Center,
   Image,
   SimpleGrid,
   Stack,
@@ -790,6 +792,96 @@ const Home = () => {
             direction={{ base: 'column', md: 'row' }}
             spacing={{ base: 10, md: 4, lg: 10 }}
           >
+
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={pratham}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Pratham Kabra
+        </Text>
+        <Text
+          textAlign={'center'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimonials from the 12th Edition's esteemed delegates reaffirmed its resounding success and significance. Their words echoed the event's vibrancy and impact, emphasizing its pivotal role as a valuable platform for learning, networking, and personal development.        </Text>
+      </Box>
+    </Center>
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={shyam}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Shyam Garg
+        </Text>
+        <Text
+          textAlign={'center'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+          The JECRC MUN 2023 was a blockbuster, with excited and enthusiastic delegates filling the event. Eager and smiling faces were ubiquitous, reflecting the anticipation and enjoyment. Testimonials from esteemed delegates of the 12th Edition highlighted the event's success, showcasing the impact it had on participants.
+        </Text>
+      </Box>
+    </Center>
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={test1}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Tanishka sethia
+        </Text>
+        <Text
+          textAlign={'center'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+           JECRC's two-day MUN Conference offered a dynamic platform for persuasive discourse and networking. Delegates showcased confidence and finesse in presenting diverse perspectives. Engaging agendas revitalized knowledge and diplomatic skills. Organizers ensured seamless execution, making the event truly remarkable.
+        </Text>
+      </Box>
+    </Center>
+    
+    </Stack>
+
+    
+
+          {/* <Stack
+            direction={{ base: 'column', md: 'row' }}
+            spacing={{ base: 10, md: 4, lg: 10 }}
+          >
             <Box>
               <Stack
                 bg={useColorModeValue('white', 'gray.800')}
@@ -915,25 +1007,8 @@ const Home = () => {
                   <Text fontWeight={600} color={'white'}>{'Tanishka sethia'}</Text> 
                 </Stack>
               </Flex>
-              
             </Box>
-          </Stack>
-          <Box>
-            <Flex justifyContent="center" mt={8}>
-              <Link onClick={onClose} to="/Testimonials">
-                <Button
-                  colorScheme="orange"
-                  variant="solid"
-                  bgColor="#E74E00"
-                  color="white"
-                  size={['md', 'lg']}
-                >
-                  Read More
-                </Button>
-              </Link>
-            </Flex>
-
-            </Box>
+          </Stack> */}
           
           {/* <SimpleGrid
             spacing={4}
