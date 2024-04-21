@@ -28,7 +28,7 @@ const Footer = () => {
           <HStack marginTop={'3'}>
             <Image src={image} width="50px" />
             <Heading color={'white'} fontSize="18px">
-              JECRC MUN 2023
+              JECRC MUN 2024
             </Heading>
           </HStack>
           <HStack

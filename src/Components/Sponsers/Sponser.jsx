@@ -19,7 +19,7 @@ import AboutBanner from '../About/AboutBanner';
 import images from './Sponsers.json';
 import axios from 'axios';
 import React, { useState } from 'react';
-import Collaborations from '../../Assets/images/Collaborations.png';
+import Collaborations from '../../Assets/images/Collaborations.jpg';
 import sponsor1 from '../../Assets/SponsersImages/4.png';
 import sponsor2 from '../../Assets/SponsersImages/5.png';
 
