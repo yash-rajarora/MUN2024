@@ -19,6 +19,7 @@ import Registrationzhs from './Components/Registration/Registrationzhs';
 import AboutUs from './Components/About/Aboutus';
 import BackgroundGuideZhs from './Components/BackgroundGuide/backgroundzhs';
 import Testimonials from './Components/Testimonials';
+import PreviousSpeaker from './Components/Speakers';
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -38,6 +39,7 @@ function App() {
         <Route element={<Sponser />} exact path='/sponsers' />
         <Route element={<Contact />} exact path='/contact' />
         <Route element={<Teams />} exact path='/team' />
+        <Route element={<PreviousSpeaker />} exact path='/Speakers' />
         <Route element={<TechnicalTeams />} exact path='/technicalteam' />
         <Route element = {<Testimonials />} exact path='/testimonials' />
         <Route element={<GalleryZhs />} exact path='/GalleryZhs' />

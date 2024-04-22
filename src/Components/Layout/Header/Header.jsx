@@ -17,10 +17,10 @@ import {
 import React from 'react';
 import { RiMenu5Fill, RiTeamLine } from 'react-icons/ri';
 import { GiSmartphone } from 'react-icons/gi';
-import { GrDocumentConfig, GrGallery,GrMoney} from 'react-icons/gr';
+import { GrDocumentConfig, GrGallery,GrMoney, GrUser} from 'react-icons/gr';
 import { AiOutlineHome } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import { FaChevronDown, FaRegHandshake } from 'react-icons/fa';
+import { FaChevronDown, FaRegHandshake, } from 'react-icons/fa';
 import logo from '../../../Assets/Logos/mun2024.png';
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -154,6 +154,14 @@ const Header = () => {
                   leftIcon={<GrMoney fontSize="18px" />}
                 >
                   Sponsors
+                </Button>
+              </Link>
+              <Link onClick={onClose} to="/Speakers">
+                <Button
+                  variant="ghost"
+                  leftIcon={<GrUser fontSize="18px" />}
+                >
+                  Speakers
                 </Button>
               </Link>
               <Link onClick={onClose} to="/Contact">

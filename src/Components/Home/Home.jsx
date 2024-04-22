@@ -37,8 +37,6 @@ import HCC from'../../Assets/Logos/HCC.png';
 import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
 import unsc from '../../Assets/Logos/unsc.png'
-import Speaker from './speaker.json'
-
 import './Home.css';
 import {
   FaAngellist,
@@ -863,7 +861,7 @@ JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimo
           
         />
         <Text fontSize={'2xl'} fontFamily={'body'}>
-        Tanishka sethia
+        Tanishka Sethia
         </Text>
         <Text
           textAlign={'justify'}
@@ -1820,7 +1818,7 @@ JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimo
 
       {/* PREVIOUS SPEAKER */}
 
-      <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pt={5} pb={"4%"}>
+      {/* <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pt={5} pb={"4%"}>
           <Heading
             textAlign={'center'}
             color="#E74E00"
@@ -1856,7 +1854,7 @@ JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimo
                 );
               })}          
           </Grid>
-      </Box>
+      </Box> */}
     </>
   );
 };
