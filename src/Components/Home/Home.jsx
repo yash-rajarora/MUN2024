@@ -813,7 +813,7 @@ const Home = () => {
         Pratham Kabra
         </Text>
         <Text
-          textAlign={'center'}
+          textAlign={'justify'}
           color={useColorModeValue('gray.600', 'gray.400')}
           px={3}>
 JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimonials from the 12th Edition's esteemed delegates reaffirmed its resounding success and significance. Their words echoed the event's vibrancy and impact, emphasizing its pivotal role as a valuable platform for learning, networking, and personal development.        </Text>
@@ -839,7 +839,7 @@ JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimo
         Shyam Garg
         </Text>
         <Text
-          textAlign={'center'}
+          textAlign={'justify'}
           color={useColorModeValue('gray.600', 'gray.400')}
           px={3}>
           The JECRC MUN 2023 was a blockbuster, with excited and enthusiastic delegates filling the event. Eager and smiling faces were ubiquitous, reflecting the anticipation and enjoyment. Testimonials from esteemed delegates of the 12th Edition highlighted the event's success, showcasing the impact it had on participants.
@@ -866,7 +866,7 @@ JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimo
         Tanishka sethia
         </Text>
         <Text
-          textAlign={'center'}
+          textAlign={'justify'}
           color={useColorModeValue('gray.600', 'gray.400')}
           px={3}>
            JECRC's two-day MUN Conference offered a dynamic platform for persuasive discourse and networking. Delegates showcased confidence and finesse in presenting diverse perspectives. Engaging agendas revitalized knowledge and diplomatic skills. Organizers ensured seamless execution, making the event truly remarkable.
