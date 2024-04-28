@@ -3,12 +3,13 @@ import {
   Box,
   Button,
   Card,
-  CardFooter,
   CardBody,
   CardHeader,
   Container,
   Flex,
   Heading,
+  Badge,
+  Center,
   Image,
   SimpleGrid,
   Stack,
@@ -21,14 +22,12 @@ import {
   TabPanels, 
   Tab,
   TabPanel,
-  space,
-  Center
+  useColorModeValue
 } from '@chakra-ui/react';
 import React from 'react';
-import shrey from "../../Assets/testimonials/shrey.jpg";
-import sarthak from "../../Assets/testimonials/sarthak.jpg";
-import rishit from "../../Assets/testimonials/rishit.jpg";
-import saloni from "../../Assets/testimonials/saloni.jpg";
+import test1 from '../../Assets/testimonials/testimonial1.jpg'
+import pratham from '../../Assets/testimonials/pratham.jpeg'
+import shyam from '../../Assets/testimonials/shyam.jpeg'
 import logo from '../../Assets/Logos/mun24.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
@@ -64,6 +63,7 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+
 const Home = () => {
   const { onClose } = useDisclosure();
   return (
@@ -81,7 +81,7 @@ const Home = () => {
           <Image width={['190px', '200px']} alignContent="center" src={logo} />
           <Heading
             color={'#E74E00'}
-            fontSize={['3xl', '6xl']}
+            fontSize={['3xl', '80px']}
             fontWeight="bold"
             textAlign={'center'}
           >
@@ -97,12 +97,13 @@ const Home = () => {
           </Heading> */}
           <Heading
             color={'#E74E00'}
-            fontSize={['xl', '3xl']}
+            fontSize={['xl', '4xl']}
             fontWeight="semibold"
+            pb={'5'}
           >
             13th Edition
           </Heading>
-          {<Heading textAlign={'center'} color={'white'} fontSize={['2xl', '3xl']} fontWeight={'semibold'}>
+          {<Heading textAlign={'center'} color={'white'} fontSize={['3xl', '4xl']} fontWeight={'semibold'} pb={'5'}>
             Empowering Deliberations <br /> Shaping The World <br /> 
           </Heading>}
           
@@ -112,8 +113,8 @@ const Home = () => {
           {/* <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
           13th Edition
         </Heading> */}
-          <Heading textAlign={'center'} color={'#E74E00'} fontSize={['l', '2xl']} >
-          4th - 5th May
+          <Heading textAlign={'center'} color={'#E74E00'} fontSize={['xl', '4xl']} >
+          11th - 12th May
           </Heading>
           <Link to="https://forms.gle/8tCQpT9fqF7tLTc98">
             <Button
@@ -122,7 +123,7 @@ const Home = () => {
               border="2px solid white"
               fontWeight="medium"
               color="#E74E00"
-              marginTop={'10'}
+              marginTop={'5'}
               p="7"
               background={'#FEFCE7'}
               _hover={{
@@ -210,7 +211,7 @@ const Home = () => {
        OUR EVENT IN NUMBER
       </Heading>
       <SimpleGrid columns={{ base: 2, md: 2, xl: 5 }}  mb="8" spacing={3} >
-        <Card backgroundColor={'orange.300'}  
+        <Card backgroundColor={'#ffd9b3'}  
             size={'lg'}
             p="4"   
             display="flex"
@@ -224,7 +225,7 @@ const Home = () => {
         Institutions
         </Heading>
         </Card>
-        <Card backgroundColor={'orange.300'}  
+        <Card backgroundColor={'#ffd9b3'}  
             size={'lg'}  
             p="4"  
             display="flex"
@@ -238,7 +239,7 @@ const Home = () => {
         impressions <br/>Over Social Media
         </Heading>
         </Card>
-        <Card backgroundColor={'orange.300'}  
+        <Card backgroundColor={'#ffd9b3'}  
             size={'lg'}  
             p="4"  
             display="flex"
@@ -250,7 +251,7 @@ const Home = () => {
         <span>Attendes from </span> <br/>22+ Countries
         </Heading>
         </Card>
-        <Card backgroundColor={'orange.300'}   
+        <Card backgroundColor={'#ffd9b3'}   
             size={'lg'}
             p="8"   
             display="flex"
@@ -265,7 +266,7 @@ const Home = () => {
          with 350 Delegates
         </Heading>
         </Card>
-        <Card backgroundColor={'orange.300'}  
+        <Card backgroundColor={'#ffd9b3'}  
             size={'lg'} 
             p="8"  
             display="flex"
@@ -296,7 +297,7 @@ const Home = () => {
 
       </Heading><Box>
       <SimpleGrid columns={{ base: 3, md: 2, lg: 3, xl: 3  }}   mb="10" >
-      <Box backgroundColor={'orange.300'}   p="4" 
+      <Box backgroundColor={'#ffd9b3'}   p="4" 
             borderLeftRadius="lg"
             boxShadow="md"
             display="flex"
@@ -308,7 +309,7 @@ const Home = () => {
           IDEAS EXCHANGED
         </Heading>
         </Box>
-        <Box backgroundColor={'orange.300'}    p="4" 
+        <Box backgroundColor={'#ffd9b3'}    p="4" 
             display="flex"
             flexDirection="column"
             alignItems="center" 
@@ -318,7 +319,7 @@ const Home = () => {
           PAPERS PRESENTED
         </Heading>
         </Box>
-        <Box backgroundColor={'orange.300'}    p="4"  
+        <Box backgroundColor={'#ffd9b3'}    p="4"  
             borderRightRadius="lg"
             display="flex"
             flexDirection="column"
@@ -660,11 +661,6 @@ const Home = () => {
                     fontSize={['15px', '17px']}
                     textAlign={'justify'}
                   >
-                    {/* Campus Ambassadors of JECRC MUN are entitled to additional
-                    benefits in form of concessions and discounts. This is an
-                    opportunity to make your conference experience more
-                    fulfilling, by paying the fee simply with your networking
-                    skills. */}
                     Campus Ambassadors of JECRC MUN are entitled to additional benefits in the form of concessions and discounts. 
                     This is an opportunity to make your conference experience more fulfilling, by paying the fee simply with your networking skills. 
                   </Text>
@@ -751,7 +747,9 @@ const Home = () => {
           </Container>
         </Container>
       </Box>
+      
       {/* COMMITIES  */}
+
       <Box width={'100%'} backgroundColor=" #FEFCE7" minHeight={'100vh'} pb={'20'}>
         <Container
           minWidth={['100%','85%']}
@@ -780,17 +778,17 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={unhrc} alt="unhrc"/>
+                  <Image src={unhrc} alt="unhrc" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
                   >
                     {' '}
-                    United Nations Human Rights Council (UNHCR)
+                    United Nations High Commissioner for Refugees(UNHCR)
                   </Heading>
                 </CardHeader>
                 <CardBody>
@@ -798,6 +796,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Addressing Discrimination Against Refugees and Ensuring the Protection of Their Rights, with Special Emphasis on the Syrian Refugee Crisis
                   </Text>
@@ -811,14 +810,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={log_sabha} alt="Log Sabha"/>
+                  <Image src={log_sabha} alt="Log Sabha" height={['100px','200px']}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     Lok Sabha 
@@ -829,6 +829,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Enhancing Governance and Environmental Conservation in Ladakh (demands for statehood, tribal status under the Sixth Schedule of the Indian Constitution, and the protection of the region's fragile ecology)
                   </Text>
@@ -842,14 +843,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={imf} alt="IMF"/>
+                  <Image src={imf} alt="IMF" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     International Monetary Fund(IMF) 
@@ -860,6 +862,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     De-dollarization and its implications for the international monetary system (Discussing the trend of countries reducing their reliance on the US dollar and the potential impact on global financial stability)
                   </Text>
@@ -873,12 +876,12 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={unsc} alt="UNSC"/>
+                  <Image src={unsc} alt="UNSC" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
                   >
@@ -891,6 +894,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Ensuring a Permanent Ceasefire in Gaza and Rafah, and Addressing the Issue of Hostages Held by Israel and Hamas 
                   </Text>
@@ -904,14 +908,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={HCC} alt="HCC"/>
+                  <Image src={HCC} alt="HCC" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     Historical Crisis Committee(HCC)
@@ -922,6 +927,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     The Suez Canal Crisis (1956)
                   </Text>
@@ -935,14 +941,15 @@ const Home = () => {
                   alignItems={'center'}
                 >
                   <Heading fontSize={['50px', '100px']}>
-                  <Image src={ip_logo} alt="International Press"/>
+                  <Image src={ip_logo} alt="International Press" height={'200px'}/>
                   </Heading>
                   <Heading
                     size="md"
                     textAlign={'center'}
-                    fontSize={'25px'}
+                    fontSize={'18px'}
                     fontWeight="semibold"
                     letterSpacing={'2px'}
+                    pb={['0','5']}
                   >
                     {' '}
                     International Press (IP)
@@ -953,6 +960,7 @@ const Home = () => {
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
                     fontSize={['15px', '17px']}
+                    textAlign={'justify'}
                   >
                     Reporter | Photographer | Caricaturist
                   </Text>
@@ -990,7 +998,229 @@ const Home = () => {
               {' '}
               TESTIMONIALS
           </Heading>
-          <SimpleGrid
+          <Stack
+            direction={{ base: 'column', md: 'row' }}
+            spacing={{ base: 10, md: 4, lg: 10 }}
+          >
+
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={pratham}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Pratham Kabra
+        </Text>
+        <Text
+          textAlign={'justify'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimonials from the 12th Edition's esteemed delegates reaffirmed its resounding success and significance. Their words echoed the event's vibrancy and impact, emphasizing its pivotal role as a valuable platform for learning, networking, and personal development.        </Text>
+      </Box>
+    </Center>
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={shyam}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Shyam Garg
+        </Text>
+        <Text
+          textAlign={'justify'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+          The JECRC MUN 2023 was a blockbuster, with excited and enthusiastic delegates filling the event. Eager and smiling faces were ubiquitous, reflecting the anticipation and enjoyment. Testimonials from esteemed delegates of the 12th Edition highlighted the event's success, showcasing the impact it had on participants.
+        </Text>
+      </Box>
+    </Center>
+    <Center py={6}>
+      <Box
+        maxW={'320px'}
+        w={'full'}
+        bg={useColorModeValue('white', 'gray.900')}
+        boxShadow={'2xl'}
+        rounded={'lg'}
+        p={6}
+        textAlign={'center'}>
+        <Avatar
+          size={'xl'}
+          src={test1}
+          mb={4}
+          pos={'relative'}
+          
+        />
+        <Text fontSize={'2xl'} fontFamily={'body'}>
+        Tanishka Sethia
+        </Text>
+        <Text
+          textAlign={'justify'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          px={3}>
+           JECRC's two-day MUN Conference offered a dynamic platform for persuasive discourse and networking. Delegates showcased confidence and finesse in presenting diverse perspectives. Engaging agendas revitalized knowledge and diplomatic skills. Organizers ensured seamless execution, making the event truly remarkable.
+        </Text>
+      </Box>
+    </Center>
+    
+    </Stack>
+
+    
+
+          {/* <Stack
+            direction={{ base: 'column', md: 'row' }}
+            spacing={{ base: 10, md: 4, lg: 10 }}
+          >
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    
+                    JECRC MUN 2023 triumphed with enthusiastic delegates crowding the event. Testimonials from the 12th Edition's esteemed delegates reaffirmed its success and significance. Their words echoed the event's vibrancy and impact, emphasizing its role as a valuable platform for learning, networking, and personal development.
+                  </Text>
+                </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={pratham} mb={2} size={'xl'} />
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Pratham Kabra'}</Text>
+                  
+                  
+                </Stack>
+              </Flex>
+              
+            </Box>
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    The JECRC MUN 2023 was a blockbuster, with excited and enthusiastic delegates filling the event. Eager and smiling faces were ubiquitous, reflecting the anticipation and enjoyment. Testimonials from esteemed delegates of the 12th Edition highlighted the event's success, showcasing the impact it had on participants.
+                  </Text>
+                  </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={shyam} mb={2} size={'xl'}/>
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Shyam Garg'}</Text>
+                </Stack>
+              </Flex>
+              
+              
+            </Box>
+            <Box>
+              <Stack
+                bg={useColorModeValue('white', 'gray.800')}
+                boxShadow={'lg'}
+                p={8}
+                rounded={'xl'}
+                align={'center'}
+                pos={'relative'}
+                _after={{
+                  content: `""`,
+                  w: 0,
+                  h: 0,
+                  borderLeft: 'solid transparent',
+                  borderLeftWidth: 16,
+                  borderRight: 'solid transparent',
+                  borderRightWidth: 16,
+                  borderTop: 'solid',
+                  borderTopWidth: 16,
+                  borderTopColor: useColorModeValue('white', 'gray.800'),
+                  pos: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+              }}>
+                  <Box maxWidth={'2xl'}>
+                  <Text
+                    textAlign={'center'}
+                    color={useColorModeValue('gray.600', 'gray.400')}
+                    fontSize={'sm'}>
+                    JECRC's two-day MUN Conference offered a dynamic platform for persuasive discourse and networking. Delegates showcased confidence and finesse in presenting diverse perspectives. Engaging agendas revitalized knowledge and diplomatic skills. Organizers ensured seamless execution, making the event truly remarkable.
+                  </Text>
+                  </Box>
+              </Stack>
+              <Flex align={'center'} mt={8} direction={'column'}>
+                <Avatar src={test1} mb={2} size={'xl'}/>
+                <Stack spacing={-1} align={'center'}>
+                  <Text fontWeight={600} color={'white'}>{'Tanishka sethia'}</Text> 
+                </Stack>
+              </Flex>
+            </Box>
+          </Stack> */}
+          
+          {/* <SimpleGrid
             spacing={4}
             templateColumns="repeat(auto-fill, minmax(100%, 1fr))"
             
@@ -1111,7 +1341,7 @@ const Home = () => {
               </CardBody>
               
             </Card>
-          </SimpleGrid>
+          </SimpleGrid> */}
         </Container>
         </Container>
       </Box>
@@ -1800,14 +2030,14 @@ const Home = () => {
 
       {/* PREVIOUS SPEAKER */}
 
-      <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pt={5} pb={"4%"}>
+      {/* <Box width={'100%'} backgroundColor="#FEFCE7" minHeight={'100vh'} pt={5} pb={"4%"}>
           <Heading
             textAlign={'center'}
             color="#E74E00"
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            OUR PREVIOUS SPEAKER
+            OUR PREVIOUS SPEAKERS
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
@@ -1836,7 +2066,7 @@ const Home = () => {
                 );
               })}          
           </Grid>
-      </Box>
+      </Box> */}
     </>
   );
 };

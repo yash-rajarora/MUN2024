@@ -47,10 +47,11 @@ const MunConference = () => {
                     letterSpacing={'1px'}
                     fontWeight={['normal','medium']}
                     fontSize={['15px',"17px"]}
+                    textAlign={'justify'}
                   >
                   {/* Someone wise once said it is better to debate a question without settling it than to settle a question without debate.*/}
                   Zero Hour Summit (ZHS) is a debating competition exclusively tailored for JECRC Foundation students and organized by the esteemed JECRC Model United Nations (MUN) Society. 
-                  It is a platform meticulously crafted to kindle an interest in debating and cultivate an understanding of contemporary issues vital for navigating today's complex world. <br></br>
+                  It is a platform meticulously crafted to kindle an interest in debating and cultivate an understanding of contemporary issues vital for navigating today's complex world. <br/><br/><br/>
                  
                  
                   {/* Zero Hour Summit is a  one-day in-house debate competition that will discuss agendas in different committees ranging 
