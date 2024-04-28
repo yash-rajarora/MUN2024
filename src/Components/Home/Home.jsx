@@ -6,9 +6,7 @@ import {
   CardBody,
   CardHeader,
   Container,
-  Flex,
   Heading,
-  Badge,
   Center,
   Image,
   SimpleGrid,
@@ -37,17 +35,16 @@ import HCC from'../../Assets/Logos/HCC.png';
 import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
 import unsc from '../../Assets/Logos/unsc.png'
-import unga from '../../Assets/Logos/UNGA.png';
-import zhs from '../../Assets/images/Group 133.png';
-import Speaker from './speaker.json';
-import insta1 from './insta1.png';
-import confer from './confer.png';
-import talk from './talk.png';
-import insti from './insti.png';
-import globe from './globe.png';
 import ide from './ide.png';
 import paper from './paper.png';
 import con1 from './con1.png';
+
+// STAT SECTION
+import stat1 from '../../Assets/images/stat1.png'
+import stat2 from '../../Assets/images/stat2.png'
+import stat3 from '../../Assets/images/stat3.png'
+import stat4 from '../../Assets/images/stat4.png'
+import stat5 from '../../Assets/images/stat5.png'
 
 import './Home.css';
 import {
@@ -60,7 +57,6 @@ import {
   FaLeanpub,
   FaRegCalendarCheck,
   FaRegShareSquare,
-  FaInstagram,
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -210,76 +206,138 @@ const Home = () => {
       <Heading  size="lg" mb="4" color={'orange.400'} fontFamily={'unset'} >
        OUR EVENT IN NUMBER
       </Heading>
-      <SimpleGrid columns={{ base: 2, md: 2, xl: 5 }}  mb="8" spacing={3} >
-        <Card backgroundColor={'#ffd9b3'}  
-            size={'lg'}
-            p="4"   
-            display="flex"
-            flexDirection="column"
-            alignItems="center" 
-            justifyContent="center" >
-       
-       <Avatar src={insti} size="md" />
-        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
-        <span>350+</span> 
-        Institutions
-        </Heading>
-        </Card>
-        <Card backgroundColor={'#ffd9b3'}  
-            size={'lg'}  
-            p="4"  
-            display="flex"
-            flexDirection="column"
-            alignItems="center" 
-            justifyContent="center"  >
-              <FaInstagram fontSize={50}/>
-         
-        <Heading size="sm" fontWeight="semibold" color={'orange.900'} alignSelf={'center'} justifySelf={'center'}>
-        <span>  1,800,000+ </span> <br/>
-        impressions <br/>Over Social Media
-        </Heading>
-        </Card>
-        <Card backgroundColor={'#ffd9b3'}  
-            size={'lg'}  
-            p="4"  
-            display="flex"
-            flexDirection="column"
-            alignItems="center" 
-            justifyContent="center"  >
-        <FaGlobe  fontSize={'50'}/>
-        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'} >
-        <span>Attendes from </span> <br/>22+ Countries
-        </Heading>
-        </Card>
-        <Card backgroundColor={'#ffd9b3'}   
-            size={'lg'}
-            p="8"   
-            display="flex"
-            flexDirection="column"
-            alignItems="center" 
-            justifyContent="center" >
-       
-        <Avatar src={confer} size="md"  />
-        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
-        <span>3000+ </span> 
-         Largest Conference in Rajasthan in 2023 
-         with 350 Delegates
-        </Heading>
-        </Card>
-        <Card backgroundColor={'#ffd9b3'}  
-            size={'lg'} 
-            p="8"  
-            display="flex"
-            flexDirection="column"
-            alignItems="center" 
-            justifyContent="center"  >
-       
-        <Avatar src={talk} size='md' />
-        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
-        <span>12 </span> 
-        Talks by world <br/>renowned experts <br/>and influencers
-        </Heading>
-        </Card>
+      <SimpleGrid columns={{ base: 1, md: 1, xl: 5 }}  mb="8" spacing={3} >        
+      <Box
+        maxW={['250px','320px']}
+        w={'full'}
+        bg={useColorModeValue('#ffd9b3', '#ffd9b3')}
+        rounded={'lg'}
+        p={6}
+        alignItems="center"
+        textAlign={'center'}
+      >
+          <Image
+            src={stat3} 
+            alt="Stat Image" 
+            mb={4}
+            pos={'relative'}
+            objectFit="cover"
+            mx="auto" 
+            display="block" 
+          />
+          <Text fontSize={'2xl'} fontFamily={'body'} color={'orange.900'} fontWeight={'bold'}>
+            350+
+          </Text>
+          <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
+          Institutions
+          </Text>
+        </Box>
+        <Box
+          maxW={['250px','320px']}
+          w={'full'}
+          bg={useColorModeValue('#ffd9b3', '#ffd9b3')}
+          rounded={'lg'}
+          
+          p={6}
+          alignItems="center"
+          textAlign={'center'}
+        >
+          <Image
+            src={stat5} 
+            alt="Stat Image" 
+            mt={5}
+            mb={4}
+            pos={'relative'}
+            objectFit="cover"
+            mx="auto" 
+            display="block" 
+          />
+          <Text fontSize={'2xl'} fontFamily={'body'} color={'orange.900'} fontWeight={'bold'}>
+            1,800,000+
+          </Text>
+          <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
+            impressions Over Social Media
+          </Text>
+        </Box>
+        <Box
+          maxW={['250px','320px']}
+          w={'full'}
+          bg={useColorModeValue('#ffd9b3', '#ffd9b3')}
+          rounded={'lg'}
+          
+          p={6}
+          alignItems="center"
+          textAlign={'center'}
+        >
+          <Image
+            src={stat2} 
+            alt="Stat Image" 
+            mt={5}
+            mb={4}
+            pos={'relative'}
+            objectFit="cover"
+            mx="auto" 
+            display="block" 
+          />
+          <Text fontSize={'2xl'} fontFamily={'body'} color={'orange.900'} fontWeight={'bold'}>
+            22+
+          </Text>
+          <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
+            countries represented by attendees
+          </Text>
+        </Box>
+        <Box
+          maxW={['250px','320px']}
+          w={'full'}
+          bg={useColorModeValue('#ffd9b3', '#ffd9b3')}
+          rounded={'lg'}
+          
+          p={6}
+          alignItems="center"
+          textAlign={'center'}
+        >
+          <Image
+            src={stat4} 
+            alt="Stat Image" 
+            mt={3}
+            pos={'relative'}
+            objectFit="cover"
+            mx="auto" 
+            display="block" 
+          />
+          <Text fontSize={'2xl'} fontFamily={'body'} color={'orange.900'} fontWeight={'bold'}>
+            3000+
+          </Text>
+          <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
+            countries represented by attendees
+          </Text>
+        </Box><Box
+          maxW={['250px','320px']}
+          w={'full'}
+          bg={useColorModeValue('#ffd9b3', '#ffd9b3')}
+          rounded={'lg'}
+          
+          p={6}
+          alignItems="center"
+          textAlign={'center'}
+        >
+          <Image
+            src={stat1} 
+            alt="Stat Image" 
+            mt={5}
+            mb={4}
+            pos={'relative'}
+            objectFit="cover"
+            mx="auto" 
+            display="block" 
+          />
+          <Text fontSize={'2xl'} fontFamily={'body'} color={'orange.900'} fontWeight={'bold'}>
+            12+
+          </Text>
+          <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
+          Talks by world renowned experts and influencers
+          </Text>
+        </Box>
       </SimpleGrid>
 
   </Container>
