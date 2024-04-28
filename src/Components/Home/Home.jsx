@@ -366,7 +366,7 @@ const Home = () => {
             </Heading>
             <SimpleGrid
               marginTop={'20'}
-              spacing={4}
+              spacing={6}
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             >
               <Card size={'lg'} background={'#FEFCE7'}>

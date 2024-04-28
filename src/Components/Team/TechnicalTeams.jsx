@@ -18,7 +18,7 @@ import TechTeam from './TechnicalTeam.json';
 function TechnicalTeam() {
   return (
     <>
-      <Box bg={'green.50'} minWidth={'100%'}>
+      <Box bg={'#FEFCE7'} minWidth={'100%'}>
         <AboutBanner munheading={'TECHNICAL TEAM'} />
         <Container minWidth={'80%'}>
           <Grid
