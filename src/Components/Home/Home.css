@@ -48,6 +48,8 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+
 @media screen and (max-width: 500px) {
   .aboutBoxes {
     flex-direction: column;
@@ -63,5 +65,40 @@
     flex-direction: column;
     width: 100%;
   }
-  
+  .box1{
+    flex-direction: column;
+  }
+
+  .BOXES{
+    flex-direction: column;
+    margin-top: 50px;
+    
+  }
+ 
+  .BOX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2vmax;
+    margin-top: -5%;
+    
+  }
+
+  .box{
+    margin-top: 50px;
+  }
+
+ 
+  .BOX1{
+    margin-top: 200px;
+  }
+
+  .B{
+    padding: 5%;
+  }
+  .BOX2{
+    padding: 2px;
+  }
 }
+

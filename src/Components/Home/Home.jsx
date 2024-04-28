@@ -20,7 +20,9 @@ import {
   TabList, 
   TabPanels, 
   Tab,
-  TabPanel
+  TabPanel,
+  space,
+  Center
 } from '@chakra-ui/react';
 import React from 'react';
 import shrey from "../../Assets/testimonials/shrey.jpg";
@@ -38,7 +40,15 @@ import unhrc from '../../Assets/Logos/UNHRC.png';
 import unsc from '../../Assets/Logos/unsc.png'
 import unga from '../../Assets/Logos/UNGA.png';
 import zhs from '../../Assets/images/Group 133.png';
-import Speaker from './speaker.json'
+import Speaker from './speaker.json';
+import insta1 from './insta1.png';
+import confer from './confer.png';
+import talk from './talk.png';
+import insti from './insti.png';
+import globe from './globe.png';
+import ide from './ide.png';
+import paper from './paper.png';
+import con1 from './con1.png';
 
 import './Home.css';
 import {
@@ -46,8 +56,12 @@ import {
   FaBookReader,
   FaConnectdevelop,
   FaCreativeCommonsBy,
+  FaGlobe,
+  FaChartLine,
+  FaLeanpub,
   FaRegCalendarCheck,
   FaRegShareSquare,
+  FaInstagram,
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 const Home = () => {
@@ -183,58 +197,146 @@ const Home = () => {
             </VStack>
             <VStack alignItems={['center', 'flex-end']} pt={'8%'} width={['100%', '50%']}>
               <Image width={['85%', '80%']} src={intro} boxShadow="0px 0px 32px rgba(0, 0, 0, 0.6)"/>
-            </VStack>
-          </Stack>
-          <Stack width={'100%'} marginTop={['10', '20']} marginBottom={['10', '20']} alignItems={'center'}>
-            <Box className="aboutBoxes">
-              <Box className="aboutBox">
-                <Heading
-                  className="boxText"
-                  fontSize={'18px'}
-                  fontWeight="semibold"
-                  color={'white'}
-                >
-                  <span>2500+</span> <br />
-                  delegates
-                </Heading>
-              </Box>
-              <Box className="aboutBox">
-                <Heading
-                  className="boxText"
-                  fontSize={'18px'}
-                  fontWeight="semibold"
-                  color={'white'}
-                >
-                  <span>100+</span> <br />
-                  INTERNATIONAL DELEGATES
-                </Heading>
-              </Box>
-              <Box className="aboutBox">
-                <Heading
-                  className="boxText"
-                  fontSize={'18px'}
-                  fontWeight="semibold"
-                  color={'white'}
-                >
-                  <span>350+</span> <br />
-                  PARTICIPATION INSTITUTES
-                </Heading>
-              </Box>
-              <Box className="aboutBox">
-                <Heading
-                  className="boxText"
-                  fontSize={'18px'}
-                  fontWeight="semibold"
-                  color={'white'}
-                >
-                  <span>15 Lakh+</span> <br />
-                  MASSIVE OUTREACH
-                </Heading>
-              </Box>
-            </Box>
-          </Stack>
-        </Container>
-      </Box>
+            </VStack></Stack></Container>
+        
+
+
+
+
+
+<Container maxW="container.xl" centerContent>
+    
+      <Heading  size="lg" mb="4" color={'orange.400'} fontFamily={'unset'} >
+       OUR EVENT IN NUMBER
+      </Heading>
+      <SimpleGrid columns={{ base: 2, md: 2, xl: 5 }}  mb="8" spacing={3} >
+        <Card backgroundColor={'orange.300'}  
+            size={'lg'}
+            p="4"   
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center" >
+       
+       <Avatar src={insti} size="md" />
+        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+        <span>350+</span> 
+        Institutions
+        </Heading>
+        </Card>
+        <Card backgroundColor={'orange.300'}  
+            size={'lg'}  
+            p="4"  
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"  >
+              <FaInstagram fontSize={50}/>
+         
+        <Heading size="sm" fontWeight="semibold" color={'orange.900'} alignSelf={'center'} justifySelf={'center'}>
+        <span>  1,800,000+ </span> <br/>
+        impressions <br/>Over Social Media
+        </Heading>
+        </Card>
+        <Card backgroundColor={'orange.300'}  
+            size={'lg'}  
+            p="4"  
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"  >
+        <FaGlobe  fontSize={'50'}/>
+        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'} >
+        <span>Attendes from </span> <br/>22+ Countries
+        </Heading>
+        </Card>
+        <Card backgroundColor={'orange.300'}   
+            size={'lg'}
+            p="8"   
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center" >
+       
+        <Avatar src={confer} size="md"  />
+        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+        <span>3000+ </span> 
+         Largest Conference in Rajasthan in 2023 
+         with 350 Delegates
+        </Heading>
+        </Card>
+        <Card backgroundColor={'orange.300'}  
+            size={'lg'} 
+            p="8"  
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"  >
+       
+        <Avatar src={talk} size='md' />
+        <Heading size="sm" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+        <span>12 </span> 
+        Talks by world <br/>renowned experts <br/>and influencers
+        </Heading>
+        </Card>
+      </SimpleGrid>
+
+  </Container>
+
+
+<br/><br/><br/><br/>
+
+
+
+
+<Container maxW="container.xl" centerContent marginTop={-100}>
+    
+     <Heading  size="lg" mb="5" color={'orange.400'}>
+      INNUMBERABLE & INVALUABLE AMOUNTS OF
+
+      </Heading><Box>
+      <SimpleGrid columns={{ base: 3, md: 2, lg: 3, xl: 3  }}   mb="10" >
+      <Box backgroundColor={'orange.300'}   p="4" 
+            borderLeftRadius="lg"
+            boxShadow="md"
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"   >
+        <Avatar src={ide} size="md" />
+        <Heading size="xs" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+          IDEAS EXCHANGED
+        </Heading>
+        </Box>
+        <Box backgroundColor={'orange.300'}    p="4" 
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"  >
+        <Avatar src={paper} size="md" />
+        <Heading size="xs" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+          PAPERS PRESENTED
+        </Heading>
+        </Box>
+        <Box backgroundColor={'orange.300'}    p="4"  
+            borderRightRadius="lg"
+            display="flex"
+            flexDirection="column"
+            alignItems="center" 
+            justifyContent="center"  >
+        <Avatar src={con1} size="md"  />
+        <Heading size="xs" fontWeight="semibold" marginTop={2} color={'orange.900'}>
+          CONCERN RAISED
+        </Heading>
+        </Box>
+      
+        </SimpleGrid></Box></Container>
+
+
+  </Box>
+    
+
+      
       {/* JECRC MUN EXCELLENCIES  */}
       <Box
         backgroundAttachment={'fixed'}
@@ -386,6 +488,113 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Card>
+              <Card size={'lg'} background={'#FEFCE7'}>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                  <Heading fontSize={['50px', '100px']}>
+                    <FaGlobe fa-regular color="#E74E00" />
+                  </Heading>
+                 
+                </CardHeader>
+                <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    RECOGNIZE GLOBAL ISSUES
+                  </Heading>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                    textAlign={'justify'}
+                  >
+                   
+                   Recognizing global issues is crucial for fostering awareness and finding solutions. Model United Nations conferences provide a platform for students to understand and address these challenges through diplomacy and collaboration.
+
+                  </Text>
+                </CardBody>
+              </Card>
+              <Card size={'lg'} background={'#FEFCE7'}>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                  <Heading fontSize={['50px', '100px']}>
+                    <FaChartLine fa-regular color="#E74E00" />
+                  </Heading>
+                 
+                </CardHeader>
+                <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    ELEVATE YOUR RESUME
+                  </Heading>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                    textAlign={'justify'}
+                  >
+                   
+                   MUNs are known for their quality, high standards, and difficulty levels. Participating in one will work as an asset when you apply for colleges and/or jobs. Admissions officers and job interviewers look for candidates with discipline, confidence, analytical ability, and problem-solving skills; all traits that are exemplified by participating in MUNs.
+
+                  </Text>
+                </CardBody>
+              </Card>
+
+              <Card size={'lg'} background={'#FEFCE7'}>
+                <CardHeader
+                  display={'flex'}
+                  flexDir="column"
+                  justifyContent="center"
+                  alignItems={'center'}
+                >
+                  <Heading fontSize={['50px', '100px']}>
+                    <FaLeanpub fa-regular color="#E74E00" />
+                  </Heading>
+                 
+                </CardHeader>
+                <Heading
+                    size="md"
+                    textAlign={'center'}
+                    fontSize={'25px'}
+                    fontWeight="semibold"
+                    letterSpacing={'2px'}
+                  >
+                    {' '}
+                    EXPERIENTIAL LEARNING
+                  </Heading>
+                <CardBody>
+                  <Text
+                    letterSpacing={'1px'}
+                    fontWeight={'medium'}
+                    fontSize={['15px', '17px']}
+                    textAlign={'justify'}
+                  >
+                   Exploring the world through textbooks and lectures can be dull. 
+                   However, MUN conferences dive into vibrant discussions, helping you gain knowledge through hands-on experience that truly ignites excitement.
+                   
+                  </Text>
+                </CardBody>
+              </Card>
+              
             </SimpleGrid>
           </Container>
         </Container>
@@ -765,6 +974,7 @@ const Home = () => {
         backgroundSize="cover"
         
       >
+
       <Container background={'blackAlpha.800'} minWidth="100%">
         <Container
           maxWidth={['100%','85%']}
