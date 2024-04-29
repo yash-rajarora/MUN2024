@@ -309,7 +309,7 @@ const Home = () => {
             3000+
           </Text>
           <Text fontSize={'md'} fontFamily={'body'} color={'orange.900'}>
-            countries represented by attendees
+            delegates so far
           </Text>
         </Box><Box
           maxW={['250px','320px']}

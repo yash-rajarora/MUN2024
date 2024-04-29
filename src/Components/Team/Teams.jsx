@@ -95,7 +95,7 @@ function Team() {
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            Secretary general
+            Secretary General
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
@@ -252,7 +252,7 @@ function Team() {
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            Digital marketing Team
+            Digital Marketing Team
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
@@ -408,7 +408,7 @@ function Team() {
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            Graphic designing Team
+            Graphic Designing Team
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
@@ -460,7 +460,7 @@ function Team() {
             marginBottom={'50px'}
             letterSpacing="4px"
           >
-            Content writing Team
+            Content Writing Team
           </Heading>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
